@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{ partial "head" . }}
+	<body data-spy="scroll" data-target="#nav-components" data-offset="112" data-smooth-scroll-offset="112">
+		{{ partial "header" . }}
+		{{ block "main" . }}{{ end }}
+    {{ partial "footer" . }}
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500" rel="stylesheet">
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/popper.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.smartWizard.min.js"></script>
+    <script type="text/javascript" src="/js/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/scrollMonitor.js"></script>
+    <script type="text/javascript" src="/js/smooth-scroll.polyfills.js"></script>
+    <script type="text/javascript" src="/js/prism.js"></script>
+    <script type="text/javascript" src="/js/zoom.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/theme.min.js"></script>
+    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    {{ if isset .Params "code" }}
+      <script>hljs.initHighlightingOnLoad();</script>
+    {{ end }}
+
+    {{- range .Params.js }}
+      <script src="/js/{{ . }}"></script>
+    {{- end }}
+
+    <script>
+    $(window).scroll(function () {
+        var nav = $('#main-nav');
+        var top = 100;
+        if ($(window).scrollTop() >= top) {
+          nav.addClass('scolled');
+        } else {
+          nav.removeClass('scolled');
+        }
+      });
+      </script>
+	</body>
+</html>

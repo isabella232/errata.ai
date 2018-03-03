@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}</title>
+
+    {{ if .IsHome }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
+
+    <link rel="stylesheet" href="{{ "/css/socicon.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/entypo.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/theme.min.css" | relURL }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+
+    {{- range .Params.css }}
+      <link rel="stylesheet" href="/css/{{ . }}">
+    {{- end }}
+
+    <link rel="stylesheet" href="{{ "/css/syntax.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+</head>
