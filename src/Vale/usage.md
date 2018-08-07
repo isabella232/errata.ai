@@ -22,29 +22,32 @@ At its core, Vale is designed to be used as a command-line tool. Its general usa
 ```shell
 $ vale --help
 NAME:
-    vale - A command-line linter for prose.
+   vale - A command-line linter for prose.
 
 USAGE:
-    vale [global options] command [command options] [arguments...]
+   vale [global options] command [command options] [arguments...]
 
 VERSION:
-    vX.X.X
+   vx.x.x
 
 COMMANDS:
-        dump-config, dc  Dumps configuration options to stdout and exits
-        new              Generates a template for the given extension point
-        help, h          Shows a list of commands or help for one command
+     dump-config, dc  Dumps configuration options to stdout and exits
+     new              Generates a template for the given extension point
+     help, h          Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-    --glob value     a glob pattern (e.g., --glob='*.{md,txt}') (default: "*")
-    --output value   output style ("line", "JSON", or "context") (default: "CLI")
-    --ext value      extension to associate with stdin (default: ".txt")
-    --no-wrap        don't wrap CLI output
-    --no-exit        don't return a nonzero exit code on lint errors
-    --sort           sort files by their name in output
-    --ignore-syntax  lint all files line-by-line
-    --help, -h       show help
-    --version, -v    print the version
+   --glob value     a glob pattern (e.g., --glob='*.{md,txt}') (default: "*")
+   --config value   a file path (e.g., --config='some/file/path')
+   --output value   output style ("line" or "JSON") (default: "CLI")
+   --ext value      extension to associate with stdin (default: ".txt")
+   --no-wrap        don't wrap CLI output
+   --no-exit        don't return a nonzero exit code on lint errors
+   --sort           sort files by their name in output
+   --normalize      replace each path separator with a slash ('/')
+   --ignore-syntax  lint all files line-by-line
+   --relative       return relative paths
+   --help, -h       show help
+   --version, -v    print the version
 ```
 
 Vale's `--glob` argument accepts the [standard syntax](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm). Additionally,
