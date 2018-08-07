@@ -79,7 +79,7 @@ slug: blog
             <img class="card-img-top" src="/img/software/vale.jpg" alt="Starting Up - A Candid Documentary">
           </a>
           <div class="card-body">
-            <a href="https://errata.ai/2018/07/11/bringing-nlp-to-go.html">
+            <a href="/">
               <h4 class="card-title mb-3">A syntax-aware linter for prose</h4>
             </a>
             <p class="card-text">
