@@ -24,7 +24,7 @@ slug: blog
       <li class="col-12 col-md-6 col-lg-4">
         <div class="card card-lg">
           <a href="https://medium.com/@errata.ai/introducing-prose-v2-0-0-bringing-nlp-to-go-a1f0c121e4a5">
-            <img class="card-img-top" src="/img/posts/v2.0.0.jpg" alt="Starting Up - A Candid Documentary">
+            <img class="card-img-top" src="/img/posts/v2.0.0.jpg" alt="prose logo">
           </a>
           <div class="card-body">
             <a href="https://medium.com/@errata.ai/introducing-prose-v2-0-0-bringing-nlp-to-go-a1f0c121e4a5">
@@ -50,7 +50,7 @@ slug: blog
       <li class="col-12 col-md-6 col-lg-4">
         <div class="card card-lg">
           <a href="https://medium.com/@errata.ai/prodigy-prose-radically-efficient-machine-teaching-in-go-93389bf2d772">
-            <img class="card-img-top" src="/img/posts/pp.jpg" alt="Starting Up - A Candid Documentary">
+            <img class="card-img-top" src="/img/posts/pp.jpg" alt="prose logo">
           </a>
           <div class="card-body">
             <a href="https://medium.com/@errata.ai/prodigy-prose-radically-efficient-machine-teaching-in-go-93389bf2d772">
@@ -75,8 +75,8 @@ slug: blog
 
       <li class="col-12 col-md-6 col-lg-4">
         <div class="card card-lg">
-          <a href="https://errata.ai/2018/07/11/bringing-nlp-to-go.html">
-            <img class="card-img-top" src="/img/software/vale.jpg" alt="Starting Up - A Candid Documentary">
+          <a href="/">
+            <img class="card-img-top" src="/img/software/vale.jpg" alt="Vale logo">
           </a>
           <div class="card-body">
             <a href="/">
