@@ -7,6 +7,11 @@
 /*
 */
 
+#pointers {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 #statement {
     transform: rotate(5deg);
 }
