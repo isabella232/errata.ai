@@ -1,47 +1,174 @@
 {{ define "main" }}
 <section class="bg-white">
   <div class="container">
+    <img alt="Image" src="/img/graphic-bg-clouds-5.png" class="bg-image" />
     <div class="row justify-content-center align-items-center">
-      <!--end of col-->
-      <div class="col-lg-6 col-sm-8">
-        <h1 class="display-5 text-center">
-          We specialize in <span id="heading"></span>
-        </h1>
+      <div class="col-12 col-md-8 col-lg-6 order-md-1">
+        <h1 class="display-4">Automated QA for collaborative writing</h1>
         <span class="lead">
-           Keep your content concise, consistent, and mistake-free with our
-           quality assurance software and services.
+          We specialize in
+          <span id="heading"></span>
         </span>
+        <a href="#" class="btn btn-primary btn-lg">Learn more</a>
       </div>
-      </div>
-      <!--end of col-->
     </div>
-    <!--end of row-->
   </div>
-  <!--end of container-->
 </section>
-<!--
-<section class="row d-none d-xl-block">
+<section class="bordered">
   <div class="container">
-    <div>
-      <div class="col-12 text-center">
-        <ul class="list-inline list-inline-large">
-          <li class="list-inline-item">
-            <a href="https://github.com/linode/docs">
-              <img style="max-height: 90px;" alt="Image" src="/img/linode.svg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/cockroachdb/docs"><img alt="Image" style="max-height: 60px;" src="/img/cockroach-labs.svg" /></a>
-          </li>
-          <li class="list-inline-item">
-             <a href="https://github.com/cloud-elements/devportal"><img style="max-height: 100px;" alt="Image" src="/img/logo-ce.png" /></a>
-          </li>
-        </ul>
+    <span class="title-decorative text-center">Who we help</span>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner row mx-auto">
+        <div class="carousel-item col-md-4 active">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/linode/docs">
+                  <span class="text-normal">linode /</span> docs
+                </a>
+              </h5>
+              <p class="card-text">Linode guides and tutorials.</p>
+            </div>
+            <div class="card-footer">
+              <a class="github-button" href="https://github.com/linode/docs" data-icon="octicon-star" data-show-count="true" aria-label="Star linode/docs on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/linode/docs">
+                  <span class="text-normal">gohugoio /</span> hugo
+                </a>
+              </h5>
+              <p class="card-text">The world’s fastest framework for building websites.</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/gohugoio/hugo" data-icon="octicon-star" data-show-count="true" aria-label="Star gohugoio/hugo on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">prose</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/cockroachdb/docs">
+                  <span class="text-normal">cockroachdb /</span> docs
+                </a>
+              </h5>
+              <p class="card-text">CockroachDB user documentation</p>
+            </div>
+            <div class="card-footer text-muted">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/cockroachdb/docs" data-icon="octicon-star" data-show-count="true" aria-label="Star cockroachdb/docs on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/cloud-elements/devportal">
+                  <span class="text-normal">cloud-elements /</span> devportal
+                </a>
+              </h5>
+              <p class="card-text">Cloud Elements developer portal</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/cloud-elements/devportal" data-icon="octicon-star" data-show-count="true"
+                aria-label="Star cloud-elements/devportal on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/alphagov/govuk-developer-docs">
+                  <span class="text-normal">alphagov /</span> developer-docs
+                </a>
+              </h5>
+              <p class="card-text">Tech docs for everyone working on GOV.UK</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/alphagov/govuk-developer-docs" data-icon="octicon-star" data-show-count="true"
+                aria-label="Star alphagov/govuk-developer-docs on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/writethedocs/www">
+                  <span class="text-normal">writethedocs /</span> www
+                </a>
+              </h5>
+              <p class="card-text">The main website for Write the Docs.</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/writethedocs/www" data-icon="octicon-star" data-show-count="true" aria-label="Star writethedocs/www on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/testthedocs/redactor">
+                  <span class="text-normal">testthedocs /</span> redactor
+                </a>
+              </h5>
+              <p class="card-text">Documentation Quality Assurance Framework</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/testthedocs/redactor" data-icon="octicon-star" data-show-count="true" aria-label="Star testthedocs/redactor on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/alphagov/re-team-manual">
+                  <span class="text-normal">alphagov /</span> re-team-manual
+                </a>
+              </h5>
+              <p class="card-text">Team manual for Reliability Engineering and its sub-teams.</p>
+            </div>
+            <div class="card-footer">
+              <!-- Place this tag where you want the button to render. -->
+              <a class="github-button" href="https://github.com/alphagov/re-team-manual" data-icon="octicon-star" data-show-count="true"
+                aria-label="Star alphagov/re-team-manual on GitHub">Star</a>
+              <a href="https://github.com/ValeLint/vale" class="badge badge-primary float-right">Vale</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
--->
 <section class="bg-white">
   <div class="container u-space-3">
     <span class="title-decorative text-center">What we do</span>
