@@ -19,7 +19,7 @@ js: [
          </div>
       </div>
       <div class="row justify-content-around align-items-center">
-         <div class="col-12 col-md-6 col-lg-3">
+         <div class="col-md-6 col-lg-3 d-none d-md-block">
             <div class="gallery" id="gallery">
                <div class="mb-3 pics animation all 2">
                   <img class="img-fluid w-100" src="/img/Appveyor.png" alt="Appveyor logo">
@@ -106,7 +106,7 @@ js: [
       </div>
       <!--end of row-->
       <div class="row row-eq-height justify-content-around align-items-center">
-         <div class="col-12 col-md-6 d-sm-none d-md-block">
+         <div class="col-md-6 d-none d-md-block">
             <figure class="gist window"><figcaption><span class="chrome button close"></span><span class="chrome button minimize"></span><span class="chrome button fullscreen"></span><span class="chrome title">example.md</span></figcaption><pre id="fm-section">---
 author.name = "errata.ai"
 author.email = "support@errata.ai"
