@@ -1,21 +1,23 @@
 ---
 title: About
 slug: about
+
+js: [
+    "demo.js"
+]
 ---
 
 <section class="bg-white">
    <div class="container">
       <div class="row justify-content-center text-center section-intro">
          <div class="col-12 col-md-9 col-lg-8">
-            <span name="tech" class="title-decorative">Technology</span>
+            <span id="tech" class="title-decorative">Technology</span>
             <span class="lead">
-                Get a complete publishing pipeline revamp or let us fill in the
-                gaps.
+            Get a complete publishing pipeline revamp or let us fill in the
+            gaps.
             </span>
          </div>
-         <!--end of col-->
       </div>
-      <!--end of row-->
       <div class="row justify-content-around align-items-center">
          <div class="col-12 col-md-6 col-lg-3">
             <div class="gallery" id="gallery">
@@ -91,3 +93,117 @@ slug: about
    </div>
    <!--end of container-->
 </section>
+<section class="bg-white">
+   <div class="container">
+      <div class="row justify-content-center text-center section-intro">
+         <div class="col-12 col-md-9 col-lg-8">
+            <span id="customization" class="title-decorative">Customization</span>
+            <span class="lead">
+            We'll craft solutions that meet your content and structural needs.
+            </span>
+         </div>
+         <!--end of col-->
+      </div>
+      <!--end of row-->
+      <div class="row row-eq-height justify-content-around align-items-center">
+         <div class="col-12 col-md-6 d-sm-none d-md-block">
+            <figure class="gist window"><figcaption><span class="chrome button close"></span><span class="chrome button minimize"></span><span class="chrome button fullscreen"></span><span class="chrome title">example.md</span></figcaption><pre id="fm-section">---
+author.name = "errata.ai"
+author.email = "support@errata.ai"
+categories  = [
+    "markup",
+    "quality assurance"
+]
+---</pre>
+                    <span id="syntax-section" class="text-fade">
+                    <p><span id="text-heading"># Parsing</span></p>
+                    <p>You'll never have to worry about markup-related false positives since <span id="text-code">`code`</span>, <span id="text-link">[URLs](errata.ai)</span>, and other non-prose sections are handled correctly by all of our software.</p></span>
+                    <br>
+                    <pre id="sc-section" class="text-fade">{< file "hello.go" go >}
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("hello, world\n")
+}
+{< /file >}</pre>
+                    <span id="style-section" class="text-fade">
+                    <p>
+                        <span id="text-branding">errata.ai's</span> prose <span id="text-term">linter</span> focuses on composable styles rather than imprecise grammar-related suggestions. These styles allow you to ensure organization-specific terms are spelled and capitalized correctly.
+                    </p></span></figure>
+         </div>
+         <div class="col-12 col-md-6">
+            <ul class="nav nav-cards" role="tablist">
+               <li>
+                  <div class="card active" data-toggle="tab" href="#content-1" role="tab" aria-controls="content-1" aria-selected="true">
+                     <div class="card-body">
+                        <div class="media align-items-center">
+                           <div class="step-circle mr-4">1</div>
+                           <div class="media-body">
+                              <h5>Front matter</h5>
+                              <span>
+                                We'll help you ensure that your front matter is accurate by implementing a custom <a href="https://json-schema.org/">JSON Schema</a>-based validation suite.
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="card" data-toggle="tab" href="#content-2" role="tab" aria-controls="content-2" aria-selected="false">
+                     <div class="card-body">
+                        <div class="media align-items-center">
+                           <div class="step-circle mr-4">2</div>
+                           <div class="media-body">
+                              <h5>Parsing</h5>
+                              <span>
+                              Our markup parser assigns scopes to sections of text, making it possible to employ advanced static analysis.
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="card" data-toggle="tab" href="#content-3" role="tab" aria-controls="content-3" aria-selected="false">
+                     <div class="card-body">
+                        <div class="media align-items-center">
+                           <div class="step-circle mr-4">3</div>
+                           <div class="media-body">
+                              <h5>Extensions</h5>
+                              <span>
+                              In addition to standard markup, we support defining
+                              your own syntax snippets&mdash;which is a popular feature among static site generators.
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="card" data-toggle="tab" href="#content-4" role="tab" aria-controls="content-4" aria-selected="false">
+                     <div class="card-body">
+                        <div class="media align-items-center">
+                           <div class="step-circle mr-4">4</div>
+                           <div class="media-body">
+                              <h5>Content</h5>
+                              <span>
+                              We've developed the fastest syntax-aware prose
+                              linter available. It's capable of checking your
+                              documents against entire editorial style guides.
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!--end of col-->
+   <!--end of row-->
+   </div>
+   <!--end of container-->
+</section>
+
