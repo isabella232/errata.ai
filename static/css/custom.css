@@ -57,7 +57,7 @@
 }
 
 .window {
-    margin: 2em auto;
+    margin: 0 2em auto;
     border: 1px solid;
     border-radius: 3px;
     box-shadow: 0 0 0 3px rgba(0,0,0,.02);

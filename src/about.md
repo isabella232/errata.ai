@@ -61,9 +61,9 @@ js: [
          <!--end of col-->
       </div>
       <!--end of row-->
-      <div class="row row-eq-height justify-content-around align-items-center">
+      <div class="row row-eq-height">
          <div class="col-md-6 d-none d-md-block">
-            <figure class="gist window"><figcaption><span class="chrome button close"></span><span class="chrome button minimize"></span><span class="chrome button fullscreen"></span><span class="chrome title">example.md</span></figcaption><pre id="fm-section">---
+            <figure class="gist window"><figcaption><span class="chrome button close"></span><span class="chrome button minimize"></span><span class="chrome button fullscreen"></span><span class="chrome title">example.md</span></figcaption><pre id="sec-1">---
 author.name = "errata.ai"
 author.email = "support@errata.ai"
 categories  = [
@@ -71,7 +71,7 @@ categories  = [
     "quality assurance"
 ]
 ---</pre>
-                    <span id="syntax-section" class="text-fade">
+                    <span id="sec-2" class="text-fade">
                         <p><span id="E002" title="ERROR: capitalize headings"># linting</span></p>
                         <p>
                             Our open-source prose linter, <span id="E001" title="ERROR: expected 'Vale'">vale</span>, is capable of enforcing
@@ -84,8 +84,8 @@ def hello:
     """
     print('Hello, world!')
 ```</pre>
-                    <p>You'll never have to worry about markup-related false positives since <span id="E003" title="spelling exception">`code`</span>, URLs, and other non-prose sections are handled correctly by all of our software.</p>
-                    <span id="style-section" class="text-fade">
+                    <p id="sec-3" class="text-fade">You'll never have to worry about markup-related false positives since <span id="E003" title="spelling exception">`code`</span>, URLs, and other non-prose sections are handled correctly by all of our software.</p>
+                    <span id="sec-4" class="text-fade">
                     <p><span id="E004" title="ERROR: missing alt text">![](image.png "Title Text")</span></p>
                     <p>Everything from color contrasts to image alt text will be checked against the latest standards.</p>
                     </span></figure>
@@ -167,8 +167,7 @@ def hello:
          <div class="col-12 col-md-9 col-lg-8">
             <span id="tech" class="title-decorative">Technology</span>
             <span class="lead">
-            Get a complete publishing pipeline revamp or let us fill in the
-            gaps.
+            Our services use the latest, industry-standard technology.
             </span>
          </div>
       </div>
@@ -196,7 +195,7 @@ def hello:
             <div class="accordion" id="accordion-1" data-children=".accordion-item">
                <div class="accordion-item">
                   <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-1" aria-expanded="true" aria-controls="accordion-1">
-                     <h5>Style Creation</h5>
+                     <h5>Markup</h5>
                      <i class="h5 icon-chevron-small-right"></i>
                   </a>
                   <div id="accordion-panel-1" class="collapse show" role="tabpanel">
@@ -207,7 +206,7 @@ def hello:
                </div>
                <div class="accordion-item">
                   <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-2" aria-expanded="false" aria-controls="accordion-1">
-                     <h5>Vocabulary Generation</h5>
+                     <h5>Static site generators</h5>
                      <i class="h5 icon-chevron-small-right"></i>
                   </a>
                   <div id="accordion-panel-2" class="collapse" role="tabpanel">
@@ -218,7 +217,7 @@ def hello:
                </div>
                <div class="accordion-item">
                   <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-3" aria-expanded="false" aria-controls="accordion-1">
-                     <h5>Markup Validation</h5>
+                     <h5>CI/CD</h5>
                      <i class="h5 icon-chevron-small-right"></i>
                   </a>
                   <div id="accordion-panel-3" class="collapse" role="tabpanel">
@@ -229,7 +228,7 @@ def hello:
                </div>
                <div class="accordion-item">
                   <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-4" aria-expanded="false" aria-controls="accordion-1">
-                     <h5>Accessibility Linting</h5>
+                     <h5>Hosting</h5>
                      <i class="h5 icon-chevron-small-right"></i>
                   </a>
                   <div id="accordion-panel-4" class="collapse" role="tabpanel">
