@@ -14,7 +14,7 @@ js: [
             <span class="lead">
             We specialize in bringing end-to-end automation to collaborative writing&mdash;without getting in the way of content creators.
             </span>
-            <a href="#" class="btn btn-primary btn-lg">Tell us what you need</a>
+            <a href="https://errata-ai.typeform.com/to/Cfsj5g" class="btn btn-primary btn-lg">Tell us what you need</a>
          </div>
          <!--end of col-->
       </div>
@@ -240,7 +240,7 @@ def hello:
         <div class="row section-intro row justify-content-center text-center">
             <div class="col-12 text-center">
                 <h3 class="h3">Don’t wait&mdash;your custom solution is one survey away.</h3>
-                <a href="#" class="btn btn-success btn-lg">Tell us what you need</a>
+                <a href="https://errata-ai.typeform.com/to/Cfsj5g" class="btn btn-success btn-lg">Tell us what you need</a>
             </div>
             <!--end of col-->
         </div>
