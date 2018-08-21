@@ -21,26 +21,26 @@ js: [
       <!--end of row-->
       <ul class="row feature-list">
          <li class="col-12 col-md-4">
-            <i class="icon-fingerprint h1 text-teal"></i>
+            <i class="icon-info h1 text-teal"></i>
             <h5>Explain your goals</h5>
             <p>
-               A self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
+               Fill out a brief survey explaining your automation goals, organizational structure, and the scale of your content.
             </p>
          </li>
          <!--end of col-->
          <li class="col-12 col-md-4">
-            <i class="icon-tablet-mobile-combo h1 text-purple"></i>
-            <h5>Decide on a solution</h5>
+            <i class="icon-users h1 text-purple"></i>
+            <h5>Review our proposal</h5>
             <p>
-               A paragraph, from the Greek paragraphos is a self-contained unit of a discourse in writing dealing with a particular point or idea.
+               We'll email you a proposal outlining our intended solution, including the technology, time frame, and cost.
             </p>
          </li>
          <!--end of col-->
          <li class="col-12 col-md-4">
-            <i class="icon-folder-music h1 text-red"></i>
-            <h5>Re-engineer your workflow</h5>
+            <i class="icon-check h1 text-red"></i>
+            <h5>Merge our contributions</h5>
             <p>
-               A self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
+               We'll submit a series of PRs implementing our proposal with detailed usage and maintenance instructions.
             </p>
          </li>
          <!--end of col-->
@@ -200,7 +200,7 @@ def hello:
                   </a>
                   <div id="accordion-panel-1" class="collapse show" role="tabpanel">
                      <p>
-                        We'll create a <a href="https://errata.ai/vale/getting-started/">Vale</a>-compatible version of your house style, allowing you to ensure that all of your content adheres to your internal guidelines.
+                        Our software supports HTML, Markdown, AsciiDoc, and reStructuredText.
                      </p>
                   </div>
                </div>
@@ -211,7 +211,7 @@ def hello:
                   </a>
                   <div id="accordion-panel-2" class="collapse" role="tabpanel">
                      <p>
-                        We'll generate a custom spelling vocabulary file from your actual content, allowing you to employ automated spell-checking without dealing with constant false positives.
+                        Our software easily integrates with all major static site generators, including Hugo, Jekyll, and Sphinx.
                      </p>
                   </div>
                </div>
@@ -222,18 +222,7 @@ def hello:
                   </a>
                   <div id="accordion-panel-3" class="collapse" role="tabpanel">
                      <p>
-                        We'll help you ensure that your front matter is accurate by implementing a custom <a href="https://json-schema.org/">JSON Schema</a>-based validation suite.
-                     </p>
-                  </div>
-               </div>
-               <div class="accordion-item">
-                  <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-4" aria-expanded="false" aria-controls="accordion-1">
-                     <h5>Hosting</h5>
-                     <i class="h5 icon-chevron-small-right"></i>
-                  </a>
-                  <div id="accordion-panel-4" class="collapse" role="tabpanel">
-                     <p>
-                        Coming soon.
+                        We'll work with your desired continuous integration provider&mdash;be it Travis CI, AppVeyor, CircleCI, Jenkins, or another service.
                      </p>
                   </div>
                </div>
