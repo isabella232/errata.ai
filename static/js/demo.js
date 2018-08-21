@@ -6,22 +6,18 @@ $('div[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         $("#sc-section").addClass("text-fade");
 
         $("#syntax-section").removeClass("text-fade");
-        $("#text-link").attr("data-entity", "link");
-        $("#text-code").attr("data-entity", "code");
-        $("#text-heading").attr("data-entity", "heading");
+        $("#E001").attr("data-entity", "error");
+        $("#E002").attr("data-entity", "error");
 
-        $("#text-term").removeAttr("data-entity");
-        $("#text-branding").removeAttr("data-entity");
+        $("#E003").removeAttr("data-entity");
+        $("#E004").removeAttr("data-entity");
     } else if (target == "#content-1") {
         $("#syntax-section").addClass("text-fade");
         $("#style-section").addClass("text-fade");
         $("#sc-section").addClass("text-fade");
 
-        $("#text-link").removeAttr("data-entity");
-        $("#text-code").removeAttr("data-entity");
-        $("#text-heading").removeAttr("data-entity");
-        $("#text-term").removeAttr("data-entity");
-        $("#text-branding").removeAttr("data-entity");
+        $("#E002").removeAttr("data-entity");
+        $("#E001").removeAttr("data-entity");
 
         $("#fm-section").removeClass("text-fade");
     } else if (target == "#content-3") {
@@ -29,25 +25,25 @@ $('div[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         $("#style-section").addClass("text-fade");
         $("#fm-section").addClass("text-fade");
 
-        $("#text-link").removeAttr("data-entity");
-        $("#text-code").removeAttr("data-entity");
-        $("#text-heading").removeAttr("data-entity");
-        $("#text-term").removeAttr("data-entity");
-        $("#text-branding").removeAttr("data-entity");
+        $("#E001").removeAttr("data-entity");
+        $("#E002").removeAttr("data-entity");
+        $("#E004").removeAttr("data-entity");
 
         $("#sc-section").removeClass("text-fade");
+        $("#E003").attr("data-entity", "spelling");
     } else if (target == "#content-4") {
+        // Add text fades ...
         $("#syntax-section").addClass("text-fade");
         $("#fm-section").addClass("text-fade");
         $("#sc-section").addClass("text-fade");
 
-        $("#text-link").removeAttr("data-entity", "link");
-        $("#text-code").removeAttr("data-entity", "code");
-        $("#text-heading").removeAttr("data-entity", "heading");
+        // Disable inactive entities ...
+        $("#E001").removeAttr("data-entity");
+        $("#E002").removeAttr("data-entity");
+        $("#E003").removeAttr("data-entity");
 
+        // Activate the section ...
         $("#style-section").removeClass("text-fade");
-
-        $("#text-term").attr("data-entity", "term");
-        $("#text-branding").attr("data-entity", "branding");
+        $("#E004").attr("data-entity", "error");
     }
 });
