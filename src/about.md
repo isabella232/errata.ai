@@ -78,17 +78,19 @@ categories  = [
                             entire editorial styles guides, including heading capitalization, brand-specific terminology, and much more.
                         </p>
                     </span>
-                    <pre class="text-fade">```python
-def hello:
-    """A simple function.
-    """
-    print('Hello, world!')
-```</pre>
-                    <p id="sec-3" class="text-fade">You'll never have to worry about markup-related false positives since <span id="E003" title="spelling exception">`code`</span>, URLs, and other non-prose sections are handled correctly by all of our software.</p>
-                    <span id="sec-4" class="text-fade">
-                    <p><span id="E004" title="ERROR: missing alt text">![](image.png "Title Text")</span></p>
-                    <p>Everything from color contrasts to image alt text will be checked against the latest standards.</p>
-                    </span></figure>
+                    <pre id="sec-3" class="text-fade">{< file "hello.go" go >}
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("hello, world\n")
+}
+{< file >}</pre>
+<p id="sec-4" class="text-fade">You'll never have to worry about markup-related false positives since <span id="E003" title="spelling exception [code]">`code`</span>, URLs, and other non-prose sections are handled correctly by all of our software.</p>
+<p id="sec-5" class="text-fade">You can easily add new terms to your vocabulary file, allowing your <span id="E004" title="spelling exception [brading]">Vale</span> configuration to expand with your documentation.</p>
+
+</figure>
          </div>
          <div class="col-12 col-md-6">
             <ul class="nav nav-cards" role="tablist">
@@ -128,9 +130,9 @@ def hello:
                         <div class="media align-items-center">
                            <div class="step-circle mr-4">3</div>
                            <div class="media-body">
-                              <h5>Vocabulary Generation</h5>
+                              <h5>Custom Scoping</h5>
                               <span>
-                              We'll generate a custom spelling vocabulary file from your actual content, allowing you to employ automated spell-checking without dealing with constant false positives.
+                                We'll create custom scoping patterns that teach Vale to handle your non-standard markup correctly, allowing you to your output free of false positives.
                               </span>
                            </div>
                         </div>
@@ -138,14 +140,14 @@ def hello:
                   </div>
                </li>
                <li>
-                  <div class="card" data-toggle="tab" href="#content-4" role="tab" aria-controls="content-4" aria-selected="false">
+               <div class="card" data-toggle="tab" href="#content-4" role="tab" aria-controls="content-4" aria-selected="false">
                      <div class="card-body">
                         <div class="media align-items-center">
                            <div class="step-circle mr-4">4</div>
                            <div class="media-body">
-                              <h5>Accessibility Auditing</h5>
+                              <h5>Vocabulary Generation</h5>
                               <span>
-                              We'll help you set up automated accessibility auditing to ensure that your generated HTML meets the highest standards.
+                              We'll generate a custom spelling vocabulary file from your actual content, allowing you to employ automated spell-checking without dealing with constant false positives.
                               </span>
                            </div>
                         </div>
