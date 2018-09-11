@@ -35,6 +35,7 @@ $('div[data-toggle="tab"]').on('shown.bs.tab', function(e) {
         $('#E001').removeAttr('data-entity');
         $('#E002').removeAttr('data-entity');
         $('#E003').removeAttr('data-entity');
+        $('#E004').removeAttr('data-entity');
 
         // Activate the section ...
         $('#sec-3').removeClass('text-fade');
