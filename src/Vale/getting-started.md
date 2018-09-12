@@ -47,7 +47,7 @@ below or manually by downloading an executable from the [releases page](https://
     <span data-qs-package="brew">brew install vale</span>
     <span data-qs-package="go">go get github.com/errata-ai/vale</span>
     <span data-qs-package="choco">choco install vale</span>
-    <span data-qs-package="snap">snap install vale</span>
+    <span data-qs-package="snap">snap install --edge vale</span>
 </div>
 
 {{% /article %}}
