@@ -1,5 +1,3 @@
-%YAML 1.2
----
 extends: occurrence
 message: "Sentences should be less than 25 words"
 scope: sentence
