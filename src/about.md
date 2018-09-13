@@ -14,7 +14,7 @@ js: [
             <span class="lead">
             We specialize in bringing end-to-end automation to collaborative writing&mdash;without getting in the way of content creators.
             </span>
-            <a href="https://errata-ai.typeform.com/to/Cfsj5g" class="btn btn-primary btn-lg">Tell us what you need</a>
+            <a class="typeform-share button" href="https://errata-ai.typeform.com/to/Cfsj5g" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="2" target="_blank">Tell us what you need</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
          </div>
          <!--end of col-->
       </div>
@@ -242,7 +242,7 @@ func main() {
         <div class="row section-intro row justify-content-center text-center">
             <div class="col-12 text-center">
                 <h3 class="h3">Don’t wait&mdash;your custom solution is one survey away.</h3>
-                <a href="https://errata-ai.typeform.com/to/Cfsj5g" class="btn btn-success btn-lg">Tell us what you need</a>
+                <a class="typeform-share button btn btn-primary btn-lg" href="https://errata-ai.typeform.com/to/Cfsj5g" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="2" target="_blank">Tell us what you need</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
             </div>
             <!--end of col-->
         </div>
