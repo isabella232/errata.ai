@@ -75,11 +75,11 @@ slug: blog
 
       <li class="col-12 col-md-6 col-lg-4">
         <div class="card card-lg">
-          <a href="/">
+          <a href="https://medium.com/@errata.ai/introducing-vale-an-nlp-powered-linter-for-prose-63c4de31be00">
             <img class="card-img-top" src="/img/software/vale.jpg" alt="Vale logo">
           </a>
           <div class="card-body">
-            <a href="/">
+            <a href="https://medium.com/@errata.ai/introducing-vale-an-nlp-powered-linter-for-prose-63c4de31be00">
               <h4 class="card-title mb-3">A syntax-aware linter for prose</h4>
             </a>
             <p class="card-text">
