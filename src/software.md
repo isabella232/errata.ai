@@ -18,7 +18,7 @@ slug: software
    <ul class="row feature-list feature-list-sm">
       <li class="col-12 col-md-6 col-lg-4">
          <div class="card">
-            <a href="/vale/getting-started">
+            <a href="https://errata-ai.github.io/vale">
             <img class="card-img-top" src="/img/software/vale.jpg" alt="Card image cap">
             </a>
             <div class="card-body">
