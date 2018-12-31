@@ -132,7 +132,7 @@ func main() {
                            <div class="media-body">
                               <h5>Custom Scoping</h5>
                               <span>
-                                We'll create custom scoping patterns that teach Vale to handle your non-standard markup correctly, allowing you to your output free of false positives.
+                                We'll create custom scoping patterns that teach Vale to handle your non-standard markup correctly, allowing you to keep your output free of false positives.
                               </span>
                            </div>
                         </div>
