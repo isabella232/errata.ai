@@ -5,5 +5,3 @@ js/*.tsv
 Gemfile.lock
 public/
 nohup.out
-
-content/

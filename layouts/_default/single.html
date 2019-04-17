@@ -1,8 +1,10 @@
 {{ define "main" }}
 {{ partial "hero" . }}
 <div class="page-content">
-  <div class="wrapper">
-    {{ .Content }}
-  </div>
+  <section class="bg-white">
+    <div class="wrapper container">
+      {{ .Content }}
+    </div>
+  </section>
 </div>
 {{ end }}
