@@ -128,9 +128,10 @@ js: [
                                 <div class="media align-items-center">
                                     <div class="step-circle mr-4">3</div>
                                     <div class="media-body">
-                                        <h5><i class="fas fa-users"></i> Add your own terminology</h5>
+                                        <h5><i class="fas fa-cog"></i> Integrate with other applications</h5>
                                         <span>
-                                            Use the built-in content dashboard to control how your terminology is used.
+                                            Vale Server exposes its functionality over a local API, making it
+                                            east to integrate with third-party applications.
                                         </span>
                                     </div>
                                 </div>
@@ -148,7 +149,7 @@ js: [
                         <img alt="Image" class="img-fluid w-100" src="/img/projects.png">
                     </div>
                     <div class="tab-pane fade" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
-                        <img alt="Image" class="img-fluid w-100" src="/img/dashboard.png">
+                        <img alt="Image" class="img-fluid w-100" src="/img/advanced.png">
                     </div>
                 </div>
             </div>
@@ -159,7 +160,7 @@ js: [
     <!--end of container-->
     <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
-                <h6>Already have your own style guide? That's fine, too.</h6>
+                <h6>Already have your own style guide? That's okay, too!</h6>
                 <p class="f5 text-gray">
                     All professional licenses include free Integration Assistance that includes custom style guide creation.
                 </p>
