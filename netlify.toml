@@ -8,5 +8,5 @@
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://*.errata.ai"
+  from = "https://foo.errata.ai"
   to = "http://127.0.0.1"
