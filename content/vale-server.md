@@ -59,13 +59,6 @@ js: [
             <!--end of col-->
         </ul>
         <!--end of row-->
-        <!--end of row-->
-        <div class="row justify-content-center text-center section-outro">
-            <div class="col-lg-4 col-md-5">
-                <a href="https://errata-ai.github.io/vale-server/">Check out the documentation to learn more &rsaquo;</a>
-            </div>
-            <!--end of col-->
-        </div>
     </div>
     <!--end of container-->
 </section>
@@ -168,6 +161,39 @@ js: [
             </div>
             <!--end of col-->
         </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center text-center section-intro">
+            <div class="col-12 col-md-9 col-lg-8">
+                <span class="title-decorative">Content Management</span>
+                <h2 class="display-4">A simple, yet powerful dashboard</h2>
+                <span class="lead">Control how you use specific words and phrases, ensuring that you always have up-to-date and on-brand content.</span>
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-10">
+                <figure class="figure">
+                  <img alt="Dashboard example" src="/img/flow.gif" class="img-fluid box-shadow rounded">
+                  <figcaption class="figure-caption text-center pt-2">Dashboard updates are immediately available across all of your apps.</figcaption>
+                </figure>
+                <!--end of video cover-->
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+        <div class="row justify-content-center text-center section-outro">
+            <div class="col-lg-4 col-md-5">
+                <a href="https://errata-ai.github.io/vale-server/">View more features ›</a>
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
 </section>
 
 <section>
