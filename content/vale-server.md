@@ -7,9 +7,9 @@ layout: raw
 js: [
 ]
 ---
-<section class="bg-white pb-0">
+<section class="pb-0">
    <div class="container">
-      <div class="row justify-content-center text-center section-intro">
+      <div class="row justify-content-center text-center section-intro mb-0">
          <div class="col-12 col-md-9 col-lg-8">
             <span class="title-decorative">Introducing Vale Server</span>
             <h3 class="display-4">Your style, our editor</h3>
@@ -20,7 +20,7 @@ js: [
             </span>
          </div>
          <div class="justify-content-center text-center">
-            <img alt="Image" src="/img/server-demo-alt.png" class="img-fluid" data-action="zoom"/>
+            <img alt="Image" src="/img/vale-server/screen.png" class="img-fluid" data-action="zoom"/>
          </div>
       <!--end of row-->
       </div>
@@ -28,7 +28,7 @@ js: [
    <!--end of container-->
 </section>
 
-<section class="pt-0">
+<section>
     <div class="container">
         <!--end of row-->
         <ul class="row feature-list">
@@ -71,8 +71,8 @@ js: [
                 <span class="title-decorative">Multiple styles &amp; projects</span>
                 <h2 class="display-4">Simplify your workflow</h2>
                 <span class="lead">
-                    Vale Server allows you to manage multiple styles and projects
-                    at once, helping you keep your content guidelines straight.
+                    Vale Server allows you to manage multiple <a href="https://errata-ai.github.io/vale/styles/">styles</a> and projects
+                    at once, helping you keep <i>all</i> of your content guidelines straight.
                 </span>
             </div>
             <!--end of col-->
@@ -87,13 +87,9 @@ js: [
                                 <div class="media align-items-center">
                                     <div class="step-circle mr-4">1</div>
                                     <div class="media-body">
-                                        <h5><i class="fas fa-pen"></i> Choose your style</h5>
+                                        <h5>Choose your style</h5>
                                         <span>
-                                        Vale Server comes with pre-made styles for
-                                        <a href="http://proselint.com/">proselint</a>,
-                                        <a href="https://joblint.org/">Joblint</a>,
-                                        the <a href="https://docs.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a>,
-                                        and the <a href="https://developers.google.com/style/">Google Developer Documentation Style Guide</a>.
+                                        Styles are folders consisting of simple, easy-to-share YAML files. You can create your own or use one from our existing collection.
                                         </span>
                                     </div>
                                 </div>
@@ -106,7 +102,7 @@ js: [
                                 <div class="media align-items-center">
                                     <div class="step-circle mr-4">2</div>
                                     <div class="media-body">
-                                        <h5><i class="fas fa-window-restore"></i> Start a project</h5>
+                                        <h5>Start a project</h5>
                                         <span>
                                             Easily manage and switch between different configurations for each of your writing projects.
                                         </span>
@@ -121,7 +117,7 @@ js: [
                                 <div class="media align-items-center">
                                     <div class="step-circle mr-4">3</div>
                                     <div class="media-body">
-                                        <h5><i class="fas fa-cog"></i> Integrate with other applications</h5>
+                                        <h5>Integrate with other applications</h5>
                                         <span>
                                             Vale Server exposes its functionality over a local API, making it
                                             east to integrate with third-party applications.
@@ -133,16 +129,29 @@ js: [
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-7 col-md-7 mb-4">
+            <div class="col-7 mb-4">
                 <div class="tab-content">
                     <div class="tab-pane fade active show" id="content-1" role="tabpanel" arialabelledby="content-1-tab">
-                        <img alt="Image" class="img-fluid w-100" src="/img/styles.png">
+                        <figure class="figure">
+                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/styles.png">
+                          <figcaption class="figure-caption text-center ml-5 mr-5">Vale Server comes with pre-made styles for
+                                        <a href="http://proselint.com/">proselint</a>,
+                                        <a href="https://joblint.org/">Joblint</a>,
+                                        the <a href="https://docs.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a>,
+                                        and the <a href="https://developers.google.com/style/">Google Developer Documentation Style Guide</a>.</figcaption>
+                        </figure>
                     </div>
                     <div class="tab-pane fade" id="content-2" role="tabpanel" arialabelledby="content-2-tab">
-                        <img alt="Image" class="img-fluid w-100" src="/img/projects.png">
+                        <figure class="figure">
+                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/projects.png">
+                          <figcaption class="figure-caption text-center ml-5 mr-5">Every project also includes its own <a href="#">Vocabulary</a> (which can be manged via the <a href="#dash">built-in dashboard</a>), allowing for custom spell checking and terminology management.</figcaption>
+                        </figure>
                     </div>
                     <div class="tab-pane fade" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
-                        <img alt="Image" class="img-fluid w-100" src="/img/advanced.png">
+                        <figure class="figure">
+                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/general.png">
+                          <figcaption class="figure-caption text-center ml-5 mr-5">Vale Server has plugins Sublime Text, Atom, VS Code, and Google Docs (among others).</figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -153,7 +162,7 @@ js: [
     <!--end of container-->
     <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
-                <h6>Already have your own style guide? That's okay, too!</h6>
+                <h6>Need help creating your own style? We've got you covered.</h6>
                 <p class="f5 text-gray">
                     All professional licenses include free Integration Assistance that includes custom style guide creation.
                 </p>
@@ -163,7 +172,7 @@ js: [
         </div>
 </section>
 
-<section>
+<section id="dash">
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
@@ -177,7 +186,7 @@ js: [
         <div class="row justify-content-center">
             <div class="col-md-8 col-sm-10">
                 <figure class="figure">
-                  <img alt="Dashboard example" src="/img/flow.gif" class="img-fluid box-shadow rounded">
+                  <img alt="Dashboard example" src="/img/vale-server/flow.gif" class="img-fluid box-shadow rounded">
                   <figcaption class="figure-caption text-center pt-2">Dashboard updates are immediately available across all of your apps.</figcaption>
                 </figure>
                 <!--end of video cover-->
