@@ -134,7 +134,7 @@ js: [
                     <div class="tab-pane fade active show" id="content-1" role="tabpanel" arialabelledby="content-1-tab">
                         <figure class="figure">
                           <img alt="Image" class="img-fluid w-100" src="/img/vale-server/styles.png">
-                          <figcaption class="figure-caption text-center ml-5 mr-5">Vale Server comes with pre-made styles for
+                          <figcaption class="figure-caption text-center img-caption">Vale Server comes with pre-made styles for
                                         <a href="http://proselint.com/">proselint</a>,
                                         <a href="https://joblint.org/">Joblint</a>,
                                         the <a href="https://docs.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a>,
@@ -144,13 +144,13 @@ js: [
                     <div class="tab-pane fade" id="content-2" role="tabpanel" arialabelledby="content-2-tab">
                         <figure class="figure">
                           <img alt="Image" class="img-fluid w-100" src="/img/vale-server/projects.png">
-                          <figcaption class="figure-caption text-center ml-5 mr-5">Every project also includes its own <a href="#">Vocabulary</a> (which can be manged via the <a href="#dash">built-in dashboard</a>), allowing for custom spell checking and terminology management.</figcaption>
+                          <figcaption class="figure-caption text-center">Every project also includes its own <a href="#">Vocabulary</a> (which can be manged via the <a href="#dash">built-in dashboard</a>), allowing for custom spell checking and terminology management.</figcaption>
                         </figure>
                     </div>
                     <div class="tab-pane fade" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
                         <figure class="figure">
                           <img alt="Image" class="img-fluid w-100" src="/img/vale-server/general.png">
-                          <figcaption class="figure-caption text-center ml-5 mr-5">Vale Server has plugins Sublime Text, Atom, VS Code, and Google Docs (among others).</figcaption>
+                          <figcaption class="figure-caption text-center">Vale Server has plugins Sublime Text, Atom, VS Code, and Google Docs (among others).</figcaption>
                         </figure>
                     </div>
                 </div>

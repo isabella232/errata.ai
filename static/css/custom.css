@@ -6,6 +6,12 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+@media (min-width: 768px) {
+  .img-caption {
+      margin-left: 5em;
+      margin-right: 5em;
+  }
+}
 .video-container {
     position: relative;
     margin-top: 40px;
