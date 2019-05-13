@@ -184,7 +184,7 @@ js: [
         </div>
         <!--end of row-->
         <div class="row justify-content-center">
-            <div class="col-md-8 col-sm-10">
+            <div class="col-10">
                 <figure class="figure">
                   <img alt="Dashboard example" src="/img/vale-server/flow.gif" class="img-fluid box-shadow rounded">
                   <figcaption class="figure-caption text-center pt-2">Dashboard updates are immediately available across all of your apps.</figcaption>
@@ -214,7 +214,7 @@ js: [
                 <h2 class="display-4">Write with style&mdash;where ever you want</h2>
                 <span class="lead">Vale Server directly integrates with many popular text editors and writing applications.</span>
             </div>
-            <div class="col-md-8 col-sm-10">
+            <div class="col-10">
                 <figure class="figure">
                   <img alt="Dashboard example" src="/img/vale-server/clip.png" class="img-fluid box-shadow rounded" data-action="zoom">
                   <figcaption class="figure-caption text-center pt-2">Vale Server can check text from your clipboard, allowing you to use it on any text field.</figcaption>
