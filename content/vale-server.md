@@ -205,45 +205,45 @@ js: [
     <!--end of container-->
 </section>
 
+
 <section>
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
-                <span class="title-decorative">Use your favorite apps</span>
+                <span class="title-decorative">USE YOUR FAVORITE APPS</span>
                 <h2 class="display-4">Write with style&mdash;where ever you want</h2>
                 <span class="lead">Vale Server directly integrates with many popular text editors and writing applications.</span>
             </div>
+            <div class="col-md-8 col-sm-10">
+                <figure class="figure">
+                  <img alt="Dashboard example" src="/img/vale-server/clip.png" class="img-fluid box-shadow rounded" data-action="zoom">
+                  <figcaption class="figure-caption text-center pt-2">Vale Server can check text from your clipboard, allowing you to use it on any text field.</figcaption>
+                </figure>
+                <!--end of video cover-->
+            </div>
             <!--end of col-->
         </div>
-        <!--end of row-->
-        <div class="text-center">
+        <div class="text-center mt-5">
             <div class="apps-cluster d-flex flex-wrap flex-justify-center pb-6">
                 <div data-toggle="tooltip" title="Atom" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://github.com/TimKam/atomic-vale"><img src="/img/atom.png" alt="Atom" class="CircleBadge-icon"></a>
                 </div>
                 <div data-toggle="tooltip" title="Google Docs" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon"></div>
-                <div data-toggle="tooltip" title="Vim" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/w0rp/ale"><img src="/img/vim.png" alt="Vim" class="CircleBadge-icon"></a>
-                </div>
                 <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></div>
                 <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://github.com/lunaryorn/vscode-vale"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="Microsoft Word" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div>
-                <div data-toggle="tooltip" title="GNU Emacs" class="d-none d-sm-block CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/abingham/flycheck-vale"><img src="/img/emacs.png" alt="Emacs" class="CircleBadge-icon"></a>
-                </div>
+                <div data-toggle="tooltip" title="Microsoft Word (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div>
             </div>
         </div>
+        <!--end of row-->
         <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
                 <h6>Don't see your favorite app?</h6>
                 <a href="https://github.com/errata-ai/vale/issues/new">Open a feature request &rsaquo;</a>
             </div>
-            <!--end of col-->
         </div>
     </div>
-    <!--end of container-->
 </section>
 
 <section>
@@ -253,13 +253,13 @@ js: [
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">Buy once, use forever</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/tfzHE?wanted=true" target="_blank" data-gumroad-single-product="true">Buy now!</a>
             </div>
-            <!--end of col-->
         </div>
-        <!--end of row-->
         <div class="row justify-content-center">
             <div class="col">
-                <table class="table table-bordered pricing">
+                <table class="table table-bordered pricing table-responsive">
                     <thead>
                         <tr>
                             <th scope="col"></th>
@@ -304,31 +304,18 @@ js: [
                             <td><i class="fab fa-github"></i> + <i class="fas fa-at"></i></i>
                             </td>
                         </tr>
-                        <tr>
-                            <th scope="row"></th>
-                            <td>
-                                <a class="btn btn-link" href="#">Coming soon!</a>
-                            </td>
-                            <td>
-                                <a class="btn btn-link" href="#">Coming soon!</a>
-                            </td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
-            <!--end of col-->
-            <hr>
         </div>
-        <!--end of row-->
     </div>
-    <!--end of container-->
 </section>
 
 <section class="bg-white">
                 <div class="container">
                     <div class="row justify-content-center section-intro">
                         <div class="col-auto">
-                            <h2 class="h1">Frequently Asked Questions</h2>
+                            <h2 class="h1">FAQ</h2>
                         </div>
                         <!--end of col-->
                     </div>
@@ -347,9 +334,9 @@ js: [
                         <li class="col-12 col-md-6 col-lg-5">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6>Do you offer refunds?</h6>
+                                    <h6>How can I retrieve a lost license key?</h6>
                                     <p>
-                                        TODO.
+                                        Please visit the <a href="https://gumroad.com/license-key-lookup">license key lookup page.</a>
                                     </p>
                                 </div>
                             </div>
@@ -360,8 +347,8 @@ js: [
                                     <h6>What are the system requirements?</h6>
                                     <ul>
                                         <li><b>macOS</b>: Sierra 10.12 and newer releases are supported.</li>
-                                        <li><b>Windows</b>: Windows 7, 8.1, and 10 (64-bit) systems are supported.</li>
-                                        <li><b>Linux</b>: TODO.</li>
+                                        <li><b>Windows</b>: Windows (64-bit) 7, 8.1, and 10 systems are supported.</li>
+                                        <li><b>Linux</b>: Ubuntu 12.04 - Ubuntu 18.10</li>
                                     </ul>
                                 </div>
                             </div>
@@ -371,22 +358,19 @@ js: [
                                 <div class="card-body">
                                     <h6>Can I use the same license on multiple devices?</h6>
                                     <p>
-                                        Licenses are per-user. You can use a license on as many devices as you want as long as you are the only primary user of those devices.
+                                        Yes, licenses are distributed on a per-user basis. You can use a license on as many devices as you want, so long as you are the primary user of the devices.
                                     </p>
                                 </div>
                             </div>
                         </li>
                     </ul>
-                    <!--end of row-->
                     <div class="row justify-content-center text-center section-outro">
                         <div class="col-lg-4 col-md-5">
                             <h6>Did we miss something?</h6>
                             <p>Feel free to drop us a line with any further questions.</p>
                             <a href="mailto:support@errata.ai">Get in touch &rsaquo;</a>
                         </div>
-                        <!--end of col-->
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </section>
+
