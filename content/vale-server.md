@@ -226,12 +226,12 @@ js: [
         <div class="text-center mt-5">
             <div class="apps-cluster d-flex flex-wrap flex-justify-center pb-6">
                 <div data-toggle="tooltip" title="Atom" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/TimKam/atomic-vale"><img src="/img/atom.png" alt="Atom" class="CircleBadge-icon"></a>
+                    <img src="/img/atom.png" alt="Atom" class="CircleBadge-icon">
                 </div>
                 <div data-toggle="tooltip" title="Google Docs" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon"></div>
                 <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></div>
                 <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/lunaryorn/vscode-vale"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
+                    <img src="/img/code.png" alt="VS Code" class="CircleBadge-icon">
                 </div>
                 <div data-toggle="tooltip" title="Microsoft Word (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div>
             </div>
@@ -253,8 +253,8 @@ js: [
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">Buy once, use forever</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/tfzHE?wanted=true" target="_blank" data-gumroad-single-product="true">Buy now!</a>
+                <!--<script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy now!</a>-->
             </div>
         </div>
         <div class="row justify-content-center">
