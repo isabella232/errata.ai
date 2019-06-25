@@ -3,9 +3,6 @@ title: Vale Server
 slug: vale-server
 
 layout: raw
-
-js: [
-]
 ---
 <section class="pb-0">
    <div class="container">
@@ -18,7 +15,7 @@ js: [
             desktop application that brings <i>your</i> editorial style guide to
             life.
             </span>
-            <a href="#puchase" class="btn btn-lg btn-success">Purchase Now</a>
+            <a href="#puchase" class="btn btn-lg btn-success">Get Started</a>
             <a href="https://errata-ai.github.io/vale-server/docs/about.html" class="btn btn-lg btn-link">Documentation <i class="icon-chevron-right"></i></a>
          </div>
          <div class="justify-content-center text-center">
@@ -255,10 +252,9 @@ js: [
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
                 <span class="title-decorative">Simple, one-time pricing</span>
-                <h3 class="display-4">Buy once, use forever</h3>
+                <h3 class="display-4">No subscriptions</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <!--<script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy now!</a>-->
+                <!-- <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy now!</a> -->
             </div>
         </div>
         <div class="row justify-content-center">
@@ -288,14 +284,9 @@ js: [
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" >Users</th>
+                            <th scope="row" >Users <span data-toggle="tooltip" title="Personal license holders can download Vale Server on devices where they are the primary user. Professional licenses holder have no download restrictions."><i class="fas fa-question-circle"></i></span></th>
                             <td>1</td>
                             <td>Unlimited</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-right">Lifetime upgrades <span data-toggle="tooltip" title="You'll automatically receive access to new integrations and software updates as they become available."><i class="fas fa-question-circle"></i></span></th>
-                            <td><i class="icon-circle-with-cross text-red"></i></td>
-                            <td><i class="icon-check text-green"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="text-right">Integration Assistance <span data-toggle="tooltip" title="We'll create a Vale-compatible version of your house style and a custom vocabulary file from your own terminology."><i class="fas fa-question-circle"></i></span></th>
@@ -315,7 +306,7 @@ js: [
     </div>
 </section>
 
-<section class="bg-white">
+<section id="faq" class="bg-white">
                 <div class="container">
                     <div class="row justify-content-center section-intro">
                         <div class="col-auto">
@@ -338,9 +329,12 @@ js: [
                         <li class="col-12 col-md-6 col-lg-5">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6>How can I retrieve a lost license key?</h6>
+                                    <h6>Do you offer refunds?</h6>
                                     <p>
-                                        Please visit the <a href="https://gumroad.com/license-key-lookup">license key lookup page.</a>
+                                        Yes, refunds are available within 30
+                                        days of purchasing. Please send us an
+                                        <a href="mailto:support@errata.ai">email</a> if you wish to
+                                        claim a refund.
                                     </p>
                                 </div>
                             </div>
@@ -352,7 +346,6 @@ js: [
                                     <ul>
                                         <li><b>macOS</b>: Sierra 10.12 and newer releases are supported.</li>
                                         <li><b>Windows</b>: Windows (64-bit) 7, 8.1, and 10 systems are supported.</li>
-                                        <li><b>Linux</b>: Ubuntu 12.04 - Ubuntu 18.10</li>
                                     </ul>
                                 </div>
                             </div>
