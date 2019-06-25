@@ -275,7 +275,7 @@ layout: raw
                         <tr>
                             <th scope="row">Price</th>
                             <td>
-                                <span class="display-4">$29</span>
+                                <span class="display-4">$60</span>
                                 <span class="text-small">One-time charge</span>
                             </td>
                             <td>
