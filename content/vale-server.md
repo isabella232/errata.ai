@@ -14,13 +14,13 @@ js: [
             <span class="title-decorative">Introducing Vale Server</span>
             <h3 class="display-4">Your style, our editor</h3>
             <span class="lead">
-            Vale Server is a cross-platform (<i class="fab fa-apple"></i>, <i class="fab fa-windows"></i>, and <i class="fab fa-linux"></i>) content
-            management application that helps you ensure your content is clear,
-            concise, and consistent.
+            Vale Server is a cross-platform (<i class="fab fa-apple"></i> and <i class="fab fa-windows"></i>)
+            desktop application that brings <i>your</i> editorial style guide to
+            life.
             </span>
          </div>
          <div class="justify-content-center text-center">
-            <img alt="Image" src="/img/vale-server/screen.png" class="img-fluid" data-action="zoom"/>
+            <img alt="Image" src="/img/vale-server/screen2.png" class="img-fluid" data-action="zoom"/>
          </div>
       <!--end of row-->
       </div>
@@ -36,7 +36,8 @@ js: [
                 <i class="icon-tv h1 text-teal"></i>
                 <h5>Native performance</h5>
                 <p>
-                    Vale Server is a native desktop application. There are no size restraints, usage quotas, or other limitations.
+                    Vale Server is a native desktop application. There are no
+                    size restraints, usage quotas, or other limitations.
                 </p>
             </li>
             <!--end of col-->
@@ -44,7 +45,8 @@ js: [
                 <i class="icon-cog h1 text-teal"></i>
                 <h5>Extensible</h5>
                 <p>
-                    Use your styles and plugins everywhere you write&mdash;be it Google Docs, Microsoft Word, or your favorite text editor.
+                    Use your styles and plugins everywhere you write&mdash;be
+                    it Google Docs, a web browser, or your favorite text editor.
                 </p>
             </li>
             <!--end of col-->
