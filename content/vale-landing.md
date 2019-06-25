@@ -162,15 +162,15 @@ js: [
                 <div data-toggle="tooltip" title="Atom" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://github.com/TimKam/atomic-vale"><img src="/img/atom.png" alt="Atom" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="Google Docs" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon"></div>
                 <div data-toggle="tooltip" title="Vim" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://github.com/w0rp/ale"><img src="/img/vim.png" alt="Vim" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></div>
-                <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/lunaryorn/vscode-vale"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
+                <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-vale"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="Microsoft Word" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div>
+                <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=testthedocs.vale"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
+                </div>
                 <div data-toggle="tooltip" title="GNU Emacs" class="d-none d-sm-block CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://github.com/abingham/flycheck-vale"><img src="/img/emacs.png" alt="Emacs" class="CircleBadge-icon"></a>
                 </div>
