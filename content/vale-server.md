@@ -306,7 +306,7 @@ layout: raw
     </div>
 </section>
 
-<section id="faq" class="bg-white">
+<section id="faq" class="bg-white pt-0">
                 <div class="container">
                     <div class="row justify-content-center section-intro">
                         <div class="col-auto">
