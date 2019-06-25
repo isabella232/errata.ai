@@ -159,9 +159,7 @@ layout: raw
             <!--end of col-->
         </div>
         <!--end of row-->
-    </div>
-    <!--end of container-->
-    <div class="row justify-content-center text-center section-outro">
+        <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
                 <h6>Need help creating your own style? We've got you covered.</h6>
                 <p class="f5 text-gray">
@@ -171,6 +169,8 @@ layout: raw
             </div>
             <!--end of col-->
         </div>
+    </div>
+    <!--end of container-->
 </section>
 
 <section id="dash">
@@ -258,8 +258,8 @@ layout: raw
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col">
-                <table class="table table-bordered pricing table-responsive">
+            <div class="col table-responsive">
+                <table class="table table-bordered pricing">
                     <thead>
                         <tr>
                             <th scope="col"></th>
@@ -307,67 +307,67 @@ layout: raw
 </section>
 
 <section id="faq" class="bg-white pt-0">
-                <div class="container">
-                    <div class="row justify-content-center section-intro">
-                        <div class="col-auto">
-                            <h2 class="h1">FAQ</h2>
-                        </div>
-                        <!--end of col-->
-                    </div>
-                    <!--end of row-->
-                    <ul class="row feature-list feature-list-sm justify-content-center">
-                        <li class="col-12 col-md-6 col-lg-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6>How does payment work?</h6>
-                                    <p>
-                                        Your payment is handled securely by <a href="https://help.gumroad.com/article/147-safe-buying-on-gumroad">Gumroad</a>. Your data never touches our servers.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-12 col-md-6 col-lg-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6>Do you offer refunds?</h6>
-                                    <p>
-                                        Yes, refunds are available within 30
-                                        days of purchasing. Please send us an
-                                        <a href="mailto:support@errata.ai">email</a> if you wish to
-                                        claim a refund.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-12 col-md-6 col-lg-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6>What are the system requirements?</h6>
-                                    <ul>
-                                        <li><b>macOS</b>: Sierra 10.12 and newer releases are supported.</li>
-                                        <li><b>Windows</b>: Windows (64-bit) 7, 8.1, and 10 systems are supported.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-12 col-md-6 col-lg-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6>Can I use the same license on multiple devices?</h6>
-                                    <p>
-                                        Yes, licenses are distributed on a per-user basis. You can use a license on as many devices as you want, so long as you are the primary user of the devices.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="row justify-content-center text-center section-outro">
-                        <div class="col-lg-4 col-md-5">
-                            <h6>Did we miss something?</h6>
-                            <p>Feel free to drop us a line with any further questions.</p>
-                            <a href="mailto:support@errata.ai">Get in touch &rsaquo;</a>
-                        </div>
+    <div class="container">
+        <div class="row justify-content-center section-intro">
+            <div class="col-auto">
+                <h2 class="h1">FAQ</h2>
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+        <ul class="row feature-list feature-list-sm justify-content-center">
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>How does payment work?</h6>
+                        <p>
+                            Your payment is handled securely by <a href="https://help.gumroad.com/article/147-safe-buying-on-gumroad">Gumroad</a>. Your data never touches our servers.
+                        </p>
                     </div>
                 </div>
-            </section>
+            </li>
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Do you offer refunds?</h6>
+                        <p>
+                            Yes, refunds are available within 30
+                            days of purchasing. Please send us an
+                            <a href="mailto:support@errata.ai">email</a> if you wish to
+                            claim a refund.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>What are the system requirements?</h6>
+                        <ul>
+                            <li><b>macOS</b>: Sierra 10.12 and newer releases are supported.</li>
+                            <li><b>Windows</b>: Windows (64-bit) 7, 8.1, and 10 systems are supported.</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Can I use the same license on multiple devices?</h6>
+                        <p>
+                            Yes, licenses are distributed on a per-user basis. You can use a license on as many devices as you want, so long as you are the primary user of the devices.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="row justify-content-center text-center section-outro">
+            <div class="col-lg-4 col-md-5">
+                <h6>Did we miss something?</h6>
+                <p>Feel free to drop us a line with any further questions.</p>
+                <a href="mailto:support@errata.ai">Get in touch &rsaquo;</a>
+            </div>
+        </div>
+    </div>
+</section>
 
