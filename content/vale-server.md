@@ -10,7 +10,7 @@ js: [
 <section class="pb-0">
    <div class="container">
       <div class="row justify-content-center text-center section-intro mb-0">
-         <div class="col-12 col-md-9 col-lg-8">
+         <div class="col-12 col-md-9 col-lg-8 pb-3">
             <span class="title-decorative">Introducing Vale Server</span>
             <h3 class="display-4">Your style, our editor</h3>
             <span class="lead">
@@ -18,6 +18,8 @@ js: [
             desktop application that brings <i>your</i> editorial style guide to
             life.
             </span>
+            <a href="#puchase" class="btn btn-lg btn-success">Purchase Now</a>
+            <a href="https://errata-ai.github.io/vale-server/docs/about.html" class="btn btn-lg btn-link">Documentation <i class="icon-chevron-right"></i></a>
          </div>
          <div class="justify-content-center text-center">
             <img alt="Image" src="/img/vale-server/screen2.png" class="img-fluid" data-action="zoom"/>
@@ -248,7 +250,7 @@ js: [
     </div>
 </section>
 
-<section>
+<section id="puchase">
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
