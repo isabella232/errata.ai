@@ -19,7 +19,7 @@ layout: raw
             <a href="https://errata-ai.github.io/vale-server/docs/about.html" class="btn btn-lg btn-link">Documentation <i class="icon-chevron-right"></i></a>
          </div>
          <div class="justify-content-center text-center">
-            <img alt="Image" src="/img/vale-server/screen2.png" class="img-fluid" data-action="zoom"/>
+            <img alt="Image" src="/img/vale-server/screen22.png" class="img-fluid" data-action="zoom"/>
          </div>
       <!--end of row-->
       </div>
