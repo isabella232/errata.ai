@@ -3,6 +3,10 @@ title: Vale Server
 slug: vale-server
 
 layout: raw
+
+css: [
+    'popimg.css'
+]
 ---
 <section class="pb-0">
    <div class="container">
@@ -19,7 +23,29 @@ layout: raw
             <a href="https://errata-ai.github.io/vale-server/docs/about.html" class="btn btn-lg btn-link">Documentation <i class="icon-chevron-right"></i></a>
          </div>
          <div class="justify-content-center text-center">
-            <img alt="Image" src="/img/vale-server/screen22.png" class="img-fluid" data-action="zoom"/>
+            <div class="popover-image">
+                  <div
+                    class="popover-hotspot bg-warning animated infinite pulse"
+                    style="top: 40%; left: 25%;"
+                    data-toggle="tooltip"
+                    data-html="true"
+                    title="Use your favorite applications&mdash;Vale Server can run on your clipboard or through one of its third-party integrations.">
+                  </div>
+                  <div
+                    class="popover-hotspot bg-danger animated infinite pulse"
+                    style="top: 10%; left: 73%;"
+                    data-toggle="tooltip"
+                    data-html="true"
+                    title="Vale Server is a <i>native</i> desktop application, allowing it to seemlessly integrate into your environment.">
+                  </div>
+                  <div
+                    class="popover-hotspot bg-info animated infinite pulse"
+                    style="top: 80%; left: 70%;"
+                    data-toggle="tooltip"
+                    title="Bring your style guide to life: Vale Server helps you ensure that your writing is clear, concise, and on-brand.">
+                  </div>
+                  <img src="/img/vale-server/desktop.png" alt="Image" class="img-fluid">
+            </div>
          </div>
       <!--end of row-->
       </div>

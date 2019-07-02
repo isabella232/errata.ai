@@ -1,0 +1,10 @@
+.popover-image {
+    position: relative;
+}
+.popover-hotspot {
+    cursor: pointer;
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 50%;
+    position: absolute;
+}
