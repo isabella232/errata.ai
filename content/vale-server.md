@@ -150,7 +150,7 @@ js: [
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
                     </div>
-                    <p class="mb-1">'Another Heading' should use sentence-style capitalization.</p>
+                    <p class="mb-1">'Another Section' should use sentence-style capitalization.</p>
                   </a>
                   <a id="2" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-danger">
                     <div class="d-flex w-100 justify-content-between">

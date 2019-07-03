@@ -62,10 +62,10 @@ $(document).ready(function () {
   var htmEditor = ace.edit('htmEditor')
   var markdown = '# An example Markdown document \n\n\
 The Vale Server desktop application brings your \n\
-editorial style guide to to life. \n\n\
+editorial style guide to life. \n\n\
 Vale Server works by enforcing externally-created \n\
 *styles* such as the Microsoft Writing Style Guide. \n\n\
-## Another section \n\n\
+## Another Section \n\n\
 Styles consist of YAML files, or "rules", that \n\
 enforce a certain writing construct.\n\n\
 ```python\n\
@@ -94,8 +94,7 @@ print("Hello, world!")\n\
 
     var alert = alerts[this.id]
     htmEditor.findAll(alert.Match, {
-            // caseSensitive: false,
-            // wholeWord: true,
+      caseSensitive: true,
       regExp: false
     })
   })
