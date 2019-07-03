@@ -5,7 +5,12 @@ slug: vale-server
 layout: raw
 
 css: [
+    'editor.css',
     'popimg.css'
+]
+js: [
+    'ace/ace.js',
+    'editor.js'
 ]
 ---
 <section class="pb-0">
@@ -90,6 +95,86 @@ css: [
     <!--end of container-->
 </section>
 
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center text-center section-intro">
+            <div class="col-12 col-md-9 col-lg-8">
+                <span class="title-decorative">Choose your style</span>
+                <h2 class="display-4">Control your content</h2>
+                <span class="lead">
+                    Vale Server doesn't attempt to offer a one-size-fits-all collection of rules to enforce&mdash;instead, it allows you to choose from specific collections of rules (referred to as <i>styles</i>) or even write your own!
+                </span>
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                  <button id="lint" type="button" class="btn btn-success"><i class="fas fa-check"></i> Check text</button>
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Choose a style
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="#">
+                        Microsoft
+                        <p class="text-small text-muted">
+                            A Vale-compatible implementation of the Microsoft Writing Style Guide.
+                        </p>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        proselint
+                        <p class="text-small text-muted">
+                            proselint places the world’s greatest writers and editors by your side.
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <p class="small pt-2">
+                    Click on an alert (the right-side panel) to highlight the relevant text in the editor (the left-side panel).
+                </p>
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+        <div class="row justify-content-center">
+            <div class="col-sm-6" id="htmPane">
+                <div class="inner jumbotron" id="htmEditor"></div>
+            </div>
+            <div class="col-sm-6">
+                <div id="alerts" class="list-group">
+                  <a id="0" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-warning">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Microsoft.Hyphens [warning]</h5>
+                    </div>
+                    <p class="mb-1">'externally-' doesn't need a hyphen.</p>
+                  </a>
+                  <a id="1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-info">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
+                    </div>
+                    <p class="mb-1">'Another Heading' should use sentence-style capitalization.</p>
+                  </a>
+                  <a id="2" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-danger">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Microsoft.Quotes [error]</h5>
+                    </div>
+                    <p class="mb-1">Punctuation should go inside the quotes.</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+        <div class="row justify-content-center text-center section-outro">
+            <div class="col-lg-4 col-md-5">
+                <h6>Need help creating your own style? We've got you covered.</h6>
+                <p class="f5 text-gray">
+                    Check out our <a href="https://github.com/errata-ai/styles">styles library</a> for inspiration or make use of our <a href="#">Integration Assistance</a> service.
+                </p>
+                <a href="https://errata-ai.github.io/vale-server/">Learn more about our services &rsaquo;</a>
+            </div>
+            <!--end of col-->
+        </div>
+    </div>
+    <!--end of container-->
+</section>
 
 <section>
     <div class="container">
@@ -185,16 +270,6 @@ css: [
             <!--end of col-->
         </div>
         <!--end of row-->
-        <div class="row justify-content-center text-center section-outro">
-            <div class="col-lg-4 col-md-5">
-                <h6>Need help creating your own style? We've got you covered.</h6>
-                <p class="f5 text-gray">
-                    All professional licenses include free Integration Assistance that includes custom style guide creation.
-                </p>
-                <a href="https://errata-ai.github.io/vale-server/">Learn more &rsaquo;</a>
-            </div>
-            <!--end of col-->
-        </div>
     </div>
     <!--end of container-->
 </section>
