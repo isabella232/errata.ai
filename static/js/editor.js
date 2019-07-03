@@ -1,4 +1,4 @@
-function query (text, server) {
+function query (text, server, index) {
   var alerts = []
 
   $.ajax({
@@ -7,7 +7,8 @@ function query (text, server) {
     datatype: 'json',
     data: {
       text: text,
-      format: '.md'
+      format: '.md',
+      index: index
     },
     success: function (data, status, xhr) {
       var list = $('#alerts')
@@ -60,24 +61,22 @@ $(document).ready(function () {
   // The URL to our Vale demo
   //
   // NOTE: This API is rate-limited and NOT meant for public consumption.
-  var server = 'https://vale-demo.jdkato24.now.sh'
+  var server = 'https://valedemo-e6d6y86c4.now.sh'
   // A list of all active alerts.
   //
   // We use this to highlight text in the editor.
   var alerts = [
     {Match: 'externally-'},
-    {Match: 'Another Section'},
-    {Match: '"rules",'}
+    {Match: '"rules",'},
+    {Match: 'Another Section'}
   ]
   var htmEditor = ace.edit('htmEditor')
-  var markdown = '# An example Markdown document \n\n\
-The Vale Server desktop application brings your \n\
-editorial style guide to life. \n\n\
-Vale Server works by enforcing externally-created \n\
+  var markdown = '# An example document \n\n\
+Vale Server works by enforcing externally-created \
 *styles* such as the Microsoft Writing Style Guide. \n\n\
-## Another Section \n\n\
-Styles consist of YAML files, or "rules", that \n\
+Styles consist of YAML files, or "rules", that \
 enforce a certain writing construct.\n\n\
+## Another Section \n\n\
 ```python\n\
 # Vale Server knows how to skip code, URLs, and other\n\
 # non-prose content while checking your documents.\n\
@@ -87,8 +86,7 @@ print("Hello, world!")\n\
 
   htmEditor.getSession().setMode('ace/mode/markdown')
   htmEditor.setOptions({
-    useWrapMode: true,
-    indentedSoftWrap: true
+    wrap: true
   })
 
   htmEditor.setHighlightActiveLine(false)
@@ -96,7 +94,11 @@ print("Hello, world!")\n\
   htmEditor.clearSelection()
 
   $('#lint').click(function () {
-    alerts = query(htmEditor.getValue(), server)
+    var index = $('#styles').val()
+    if (index >= 0) {
+      console.log('Linting...')
+      alerts = query(htmEditor.getValue(), server, index)
+    }
   })
 
   $('#alerts').on('click', '.list-group-item', function (e) {

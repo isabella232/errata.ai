@@ -105,31 +105,20 @@ js: [
                 <span class="lead">
                     Vale Server doesn't attempt to offer a one-size-fits-all collection of rules to enforce. Instead, you get to choose from an ever-growing collection of pre-made styles&mdash;or you can even write your own!
                 </span>
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                  <button id="lint" type="button" class="btn btn-success"><i class="fas fa-check"></i> Check text</button>
-                  <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Choose a style
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                      <a class="dropdown-item" href="#">
-                        Microsoft
-                        <p class="text-small text-muted">
-                            A Vale-compatible implementation <br> of the Microsoft Writing Style Guide.
-                        </p>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        proselint
-                        <p class="text-small text-muted">
-                            Write with the world’s greatest <br> writers and editors by your side.
-                        </p>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        Joblint
-                        <p class="text-small text-muted">
-                            Test tech job posts for issues with sexism, <br> culture, expectations, and recruiter fails
-                        </p>
-                      </a>
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-6"><!--width is set by this div -->
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <button id="lint" class="btn btn-success" type="button"><i class="fas fa-check"></i> Check text</button>
+                          </div>
+                          <select class="custom-select" id="styles">
+                            <option selected>Choose a style</option>
+                            <option value="0">Microsoft</option>
+                            <option value="1">proselint</option>
+                            <option value="2">Joblint</option>
+                          </select>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -152,17 +141,17 @@ js: [
                     </div>
                     <p class="mb-1">'externally-' doesn't need a hyphen.</p>
                   </a>
-                  <a id="1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-info">
+                  <a id="1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-danger">
                     <div class="d-flex w-100 justify-content-between">
-                      <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
-                    </div>
-                    <p class="mb-1">'Another Section' should use sentence-style capitalization.</p>
-                  </a>
-                  <a id="2" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-danger">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h5 class="mb-1">Microsoft.Quotes [error]</h5>
+                    <h5 class="mb-1">Microsoft.Quotes [error]</h5>
                     </div>
                     <p class="mb-1">Punctuation should go inside the quotes.</p>
+                  </a>
+                  <a id="2" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-info">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
+                    </div>
+                    <p class="mb-1">'Another Section' should use sentence-style capitalization.</p>
                   </a>
                 </div>
             </div>
