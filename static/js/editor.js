@@ -49,7 +49,7 @@ function query (text, server) {
 $(document).ready(function () {
   // The URL to our Vale demo
   //
-  // TODO: Add the ability to specify a style.
+  // NOTE: This API is rate-limited and NOT meant for public consumption.
   var server = 'https://vale-demo.jdkato24.now.sh'
   // A list of all active alerts.
   //
