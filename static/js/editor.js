@@ -13,19 +13,28 @@ function query (text, server) {
       var list = $('#alerts')
 
       list.empty()
-      for (var i = 0; i < data.length; i++) {
-        var alert = data[i]
-
-        var classes = 'list-group-item list-group-item-action flex-column align-items-start'
-        if (alert.Severity === 'error') {
-          classes += ' list-group-item-danger'
-        } else if (alert.Severity === 'warning') {
-          classes += ' list-group-item-warning'
-        } else {
-          classes += ' list-group-item-info'
-        }
-
+      if (data === null) {
         list.append(
+          '<a id="-1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-success">' +
+              '<div class="d-flex w-100 justify-content-between">' +
+                  '<h5 class="mb-1">Looks good!</h5>' +
+              '</div>' +
+              '<p class="mb-1">No alerts found.</p>' +
+          '</a>')
+      } else {
+        for (var i = 0; i < data.length; i++) {
+          var alert = data[i]
+
+          var classes = 'list-group-item list-group-item-action flex-column align-items-start'
+          if (alert.Severity === 'error') {
+            classes += ' list-group-item-danger'
+          } else if (alert.Severity === 'warning') {
+            classes += ' list-group-item-warning'
+          } else {
+            classes += ' list-group-item-info'
+          }
+
+          list.append(
             '<a id="' + i + '" href="#" class="' + classes + '">' +
                 '<div class="d-flex w-100 justify-content-between">' +
                       '<h5 class="mb-1">' + alert.Check + ' [' + alert.Severity + ']</h5>' +
@@ -33,7 +42,8 @@ function query (text, server) {
                 '<p class="mb-1">' + alert.Message + '</p>' +
             '</a>')
 
-        alerts.push(alert)
+          alerts.push(alert)
+        }
       }
 
       console.log(data, status)
@@ -91,11 +101,12 @@ print("Hello, world!")\n\
 
   $('#alerts').on('click', '.list-group-item', function (e) {
     e.preventDefault()
-
     var alert = alerts[this.id]
-    htmEditor.findAll(alert.Match, {
-      caseSensitive: true,
-      regExp: false
-    })
+    if (alert) {
+      htmEditor.findAll(alert.Match, {
+        caseSensitive: true,
+        regExp: false
+      })
+    }
   })
 })
