@@ -121,7 +121,13 @@ js: [
                       <a class="dropdown-item" href="#">
                         proselint
                         <p class="text-small text-muted">
-                            proselint places the world’s greatest <br> writers and editors by your side.
+                            Write with the world’s greatest <br> writers and editors by your side.
+                        </p>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        Joblint
+                        <p class="text-small text-muted">
+                            Test tech job posts for issues with sexism, <br> culture, expectations, and recruiter fails
                         </p>
                       </a>
                     </div>
