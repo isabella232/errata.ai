@@ -103,7 +103,7 @@ js: [
                 <span class="title-decorative">Choose your style</span>
                 <h2 class="display-4">Control your content</h2>
                 <span class="lead">
-                    Vale Server doesn't attempt to offer a one-size-fits-all collection of rules to enforce&mdash;instead, it allows you to choose from specific collections of rules (referred to as <i>styles</i>) or even write your own!
+                    Vale Server doesn't attempt to offer a one-size-fits-all collection of rules to enforce. Instead, you get to choose from an ever-growing collection of pre-made styles&mdash;or you can even write your own!
                 </span>
                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                   <button id="lint" type="button" class="btn btn-success"><i class="fas fa-check"></i> Check text</button>
