@@ -115,13 +115,13 @@ js: [
                       <a class="dropdown-item" href="#">
                         Microsoft
                         <p class="text-small text-muted">
-                            A Vale-compatible implementation of the Microsoft Writing Style Guide.
+                            A Vale-compatible implementation <br> of the Microsoft Writing Style Guide.
                         </p>
                       </a>
                       <a class="dropdown-item" href="#">
                         proselint
                         <p class="text-small text-muted">
-                            proselint places the world’s greatest writers and editors by your side.
+                            proselint places the world’s greatest <br> writers and editors by your side.
                         </p>
                       </a>
                     </div>
