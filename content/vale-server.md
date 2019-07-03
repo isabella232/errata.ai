@@ -376,7 +376,7 @@ js: [
                         <tr>
                             <th scope="row">Price</th>
                             <td>
-                                <span class="display-4">$40</span>
+                                <span class="display-4">$39.99</span>
                                 <span class="text-small">One-time charge</span>
                             </td>
                             <td>
