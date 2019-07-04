@@ -365,53 +365,7 @@ js: [
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">No subscriptions</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy now!</a>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col table-responsive">
-                <table class="table table-bordered pricing">
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">
-                                <h5>Personal</h5>
-                            </th>
-                            <th scope="col">
-                                <h5>Professional</h5>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Price</th>
-                            <td>
-                                <span class="display-4">$39.99</span>
-                                <span class="text-small">One-time charge</span>
-                            </td>
-                            <td>
-                                <span class="display-4">$200</span>
-                                <span class="text-small">One-time charge</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" >Users <span data-toggle="tooltip" title="Personal license holders can download Vale Server on devices where they are the primary user. Professional licenses holder have no download restrictions."><i class="fas fa-question-circle"></i></span></th>
-                            <td>1</td>
-                            <td>Unlimited</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-right">Integration Assistance <span data-toggle="tooltip" title="We'll create a Vale-compatible version of your house style and a custom vocabulary file from your own terminology."><i class="fas fa-question-circle"></i></span></th>
-                            <td><i class="icon-circle-with-cross text-red"></i></td>
-                            <td><i class="icon-check text-green"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-right">Support <span data-toggle="tooltip" title="Personal license holders can receive support through public GitHub Issues. Professional license holders receive additional email support."><i class="fas fa-question-circle"></i></span></th>
-                            <td><i class="fab fa-github"></i></td>
-                            <td><i class="fab fa-github"></i> + <i class="fas fa-at"></i></i>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy Now $40</a>
             </div>
         </div>
     </div>
