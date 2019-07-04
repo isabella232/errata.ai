@@ -103,7 +103,7 @@ js: [
                 <span class="title-decorative">Not another grammar checker</span>
                 <h2 class="display-4">Control <i>your</i> content</h2>
                 <span class="lead">
-                    Vale Server doesn’t attempt to teach you how to write; it’s a tool <i>for</i> writers. It focuses on writing <i>style</i>&mdash;allowing you to control your voice, terminology, and branding.
+                    Vale Server doesn’t attempt to teach you how to write; it’s a tool <i>for</i> writers. It focuses on writing <i>style</i>&mdash;allowing you to control your voice, terminology, and branding by writing your own rules or using a pre-made style.
                 </span>
                 <div class="container">
                   <div class="row justify-content-center">
@@ -122,7 +122,7 @@ js: [
                     </div>
                   </div>
                 </div>
-                <p class="small pt-2">
+                <p id="style-info" class="small pt-2">
                     Click on an alert (the right-side panel) to highlight the relevant text in the editor (the left-side panel).
                 </p>
             </div>
