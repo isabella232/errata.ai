@@ -16,17 +16,20 @@ function query (text, server, index) {
       list.empty()
       if (data === null) {
         list.append(
-          '<a id="-1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-success">' +
+          '<div id="-1" class="list-group-item flex-column align-items-start list-group-item-success">' +
               '<div class="d-flex w-100 justify-content-between">' +
                   '<h5 class="mb-1">Looks good!</h5>' +
               '</div>' +
               '<p class="mb-1">No alerts found.</p>' +
-          '</a>')
+          '</div>')
       } else {
         for (var i = 0; i < data.length; i++) {
           var alert = data[i]
 
-          var classes = 'list-group-item list-group-item-action flex-column align-items-start'
+          var rule = null
+          var link = null
+
+          var classes = 'list-group-item flex-column align-items-start'
           if (alert.Severity === 'error') {
             classes += ' list-group-item-danger'
           } else if (alert.Severity === 'warning') {
@@ -35,13 +38,30 @@ function query (text, server, index) {
             classes += ' list-group-item-info'
           }
 
+          var parts = alert.Check.split('.')
+          if (parts[0] === 'Microsoft') {
+            link = alert.Link
+            rule = 'https://github.com/errata-ai/Microsoft/blob/master/Microsoft/' + parts[1] + '.yml'
+          } else if (parts[0] === 'proselint') {
+            link = 'https://github.com/amperser/proselint/blob/master/README.md'
+            rule = 'https://github.com/errata-ai/proselint/blob/master/proselint/' + parts[1] + '.yml'
+          } else {
+            link = 'https://github.com/rowanmanning/joblint/blob/master/README.md'
+            rule = 'https://github.com/errata-ai/Joblint/blob/master/Joblint/' + parts[1] + '.yml'
+          }
+
           list.append(
-            '<a id="' + i + '" href="#" class="' + classes + '">' +
+            '<div class="' + classes + '">' +
                 '<div class="d-flex w-100 justify-content-between">' +
                       '<h5 class="mb-1">' + alert.Check + ' [' + alert.Severity + ']</h5>' +
                 '</div>' +
                 '<p class="mb-1">' + alert.Message + '</p>' +
-            '</a>')
+                '<small>' +
+                  '<a id="' + i + '" class="rule" href="#">Highlight text</a> | ' +
+                  '<a href="' + link + '" target="_blank">Read more</a> | ' +
+                  '<a href="' + rule + '" target="_blank">Edit Rule</a>' +
+                '</small>' +
+            '</div>')
 
           alerts.push(alert)
         }
@@ -105,7 +125,7 @@ print("Hello, world!")\n\
     }
   })
 
-  $('#alerts').on('click', '.list-group-item', function (e) {
+  $('#alerts').on('click', '.rule', function (e) {
     e.preventDefault()
     var alert = alerts[this.id]
     if (alert) {

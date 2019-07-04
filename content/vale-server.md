@@ -75,7 +75,7 @@ js: [
                 <i class="icon-cog h1 text-teal"></i>
                 <h5>Extensible</h5>
                 <p>
-                    Use your styles and plugins everywhere you write&mdash;be
+                    Use your styles everywhere you write&mdash;be
                     it Google Docs, a web browser, or your favorite text editor.
                 </p>
             </li>
@@ -100,10 +100,10 @@ js: [
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
-                <span class="title-decorative">Choose your style</span>
-                <h2 class="display-4">Control your content</h2>
+                <span class="title-decorative">Not another grammar checker</span>
+                <h2 class="display-4">Control <i>your</i> content</h2>
                 <span class="lead">
-                    Vale Server doesn't attempt to offer a one-size-fits-all collection of rules to enforce. Instead, you get to choose from an ever-growing collection of pre-made styles&mdash;or you can even write your own!
+                    Vale Server doesn’t attempt to teach you how to write; it’s a tool <i>for</i> writers. It focuses on writing <i>style</i>&mdash;allowing you to control your voice, terminology, and branding.
                 </span>
                 <div class="container">
                   <div class="row justify-content-center">
@@ -135,24 +135,39 @@ js: [
             </div>
             <div class="col-sm-6">
                 <div id="alerts" class="list-group">
-                  <a id="0" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-warning">
+                  <div class="list-group-item flex-column align-items-start list-group-item-warning">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">Microsoft.Hyphens [warning]</h5>
                     </div>
                     <p class="mb-1">'externally-' doesn't need a hyphen.</p>
-                  </a>
-                  <a id="1" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-danger">
+                    <small>
+                        <a id="0" class="rule" href="#">Highlight text</a> |
+                        <a href="https://docs.microsoft.com/en-us/style-guide/punctuation/dashes-hyphens/hyphens" target="_blank">Read more</a> |
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Hyphens.yml" target="_blank">Edit Rule</a>
+                    </small>
+                  </div>
+                  <div class="list-group-item flex-column align-items-start list-group-item-danger">
                     <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Microsoft.Quotes [error]</h5>
+                      <h5 class="mb-1">Microsoft.Quotes [error]</h5>
                     </div>
                     <p class="mb-1">Punctuation should go inside the quotes.</p>
-                  </a>
-                  <a id="2" href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-info">
+                    <small>
+                        <a id="1" class="rule" href="#">Highlight text</a> |
+                        <a href="https://docs.microsoft.com/en-us/style-guide/punctuation/quotation-marks" target="_blank">Read more</a> |
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Quotes.yml" target="_blank">Edit Rule</a>
+                    </small>
+                  </div>
+                  <div class="list-group-item flex-column align-items-start list-group-item-info">
                     <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
+                      <h5 class="mb-1">Microsoft.Headings [suggestion]</h5>
                     </div>
                     <p class="mb-1">'Another Section' should use sentence-style capitalization.</p>
-                  </a>
+                    <small>
+                        <a id="2" class="rule" href="#">Highlight text</a> |
+                        <a href="https://docs.microsoft.com/en-us/style-guide/capitalization" target="_blank">Read more</a> |
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Headings.yml" target="_blank">Edit Rule</a>
+                    </small>
+                  </div>
                 </div>
             </div>
         </div>
