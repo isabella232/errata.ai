@@ -86,10 +86,14 @@ print("Hello, world!")\n\
 
   htmEditor.getSession().setMode('ace/mode/markdown')
   htmEditor.setOptions({
-    wrap: true
+    wrap: true,
+    indentedSoftWrap: false,
+    showLineNumbers: false,
+    behavioursEnabled: false
   })
 
   htmEditor.setHighlightActiveLine(false)
+
   htmEditor.setValue(markdown)
   htmEditor.clearSelection()
 
