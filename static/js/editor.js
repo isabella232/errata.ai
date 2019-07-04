@@ -59,7 +59,7 @@ function query (text, server, index) {
                 '<small>' +
                   '<a id="' + i + '" class="rule" href="#">Highlight text</a> | ' +
                   '<a href="' + link + '" target="_blank">Read more</a> | ' +
-                  '<a href="' + rule + '" target="_blank">Edit Rule</a>' +
+                  '<a href="' + rule + '" target="_blank">View rule</a>' +
                 '</small>' +
             '</div>')
 

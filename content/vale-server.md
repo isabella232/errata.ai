@@ -143,7 +143,7 @@ js: [
                     <small>
                         <a id="0" class="rule" href="#">Highlight text</a> |
                         <a href="https://docs.microsoft.com/en-us/style-guide/punctuation/dashes-hyphens/hyphens" target="_blank">Read more</a> |
-                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Hyphens.yml" target="_blank">Edit Rule</a>
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Hyphens.yml" target="_blank">View rule</a>
                     </small>
                   </div>
                   <div class="list-group-item flex-column align-items-start list-group-item-danger">
@@ -154,7 +154,7 @@ js: [
                     <small>
                         <a id="1" class="rule" href="#">Highlight text</a> |
                         <a href="https://docs.microsoft.com/en-us/style-guide/punctuation/quotation-marks" target="_blank">Read more</a> |
-                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Quotes.yml" target="_blank">Edit Rule</a>
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Quotes.yml" target="_blank">View rule</a>
                     </small>
                   </div>
                   <div class="list-group-item flex-column align-items-start list-group-item-info">
@@ -165,7 +165,7 @@ js: [
                     <small>
                         <a id="2" class="rule" href="#">Highlight text</a> |
                         <a href="https://docs.microsoft.com/en-us/style-guide/capitalization" target="_blank">Read more</a> |
-                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Headings.yml" target="_blank">Edit Rule</a>
+                        <a href="https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Headings.yml" target="_blank">View rule</a>
                     </small>
                   </div>
                 </div>
