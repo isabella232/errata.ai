@@ -338,14 +338,26 @@ js: [
         <div class="text-center mt-5">
             <div class="apps-cluster d-flex flex-wrap flex-justify-center pb-6">
                 <div data-toggle="tooltip" title="Atom" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <img src="/img/atom.png" alt="Atom" class="CircleBadge-icon">
+                    <a href="https://errata-ai.github.io/vale-server/docs/atom">
+                        <img src="/img/atom.png" alt="Atom" class="CircleBadge-icon">
+                    </a>
                 </div>
-                <div data-toggle="tooltip" title="Google Docs" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon"></div>
-                <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></div>
+                <div data-toggle="tooltip" title="Google Docs" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://errata-ai.github.io/vale-server/docs/gdocs">
+                        <img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon" style="max-width: 80%;">
+                    </a>
+                </div>
+                <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://errata-ai.github.io/vale-server/docs/st3">
+                        <img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon">
+                    </a>
+                </div>
                 <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <img src="/img/code.png" alt="VS Code" class="CircleBadge-icon">
+                    <a href="https://errata-ai.github.io/vale-server/docs/vscode">
+                        <img src="/img/code.png" alt="VS Code" class="CircleBadge-icon">
+                    </a>
                 </div>
-                <div data-toggle="tooltip" title="Microsoft Word (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div>
+                <!-- <div data-toggle="tooltip" title="Microsoft Word (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div> -->
             </div>
         </div>
         <!--end of row-->
