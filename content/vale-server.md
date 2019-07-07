@@ -211,7 +211,7 @@ js: [
                     <p>
                     Styles are folders consisting of simple, easy-to-share YAML files. You can create your own or use one from our existing collection.
                     </p>
-                    <a href="https://github.com/errata-ai/styles">More about styles ›</a>
+                    <a href="https://errata-ai.github.io/vale-server/docs/style">More about styles ›</a>
                 </div>
                 <!--end of col-->
             </li>
