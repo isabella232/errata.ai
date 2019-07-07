@@ -176,9 +176,9 @@ js: [
             <div class="col-lg-4 col-md-5">
                 <h6>Need help creating your own style? We've got you covered.</h6>
                 <p class="f5 text-gray">
-                    Check out our <a href="https://github.com/errata-ai/styles">styles library</a> for inspiration or make use of our <a href="#">Integration Assistance</a> service.
+                    Check out our <a href="https://github.com/errata-ai/styles">styles library</a> for inspiration or make use of our <a href="/services/">Integration Assistance</a> service.
                 </p>
-                <a href="https://errata-ai.github.io/vale-server/">Learn more about our services &rsaquo;</a>
+                <a href="/services/">Learn more about our services &rsaquo;</a>
             </div>
             <!--end of col-->
         </div>
