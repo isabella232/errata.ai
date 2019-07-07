@@ -75,7 +75,8 @@ js: [
                 <i class="icon-cog h1 text-teal"></i>
                 <h5>Extensible</h5>
                 <p>
-                    Vale Server works by enforcing externally defined rules, allowing you to completely customize its functionality.
+                    Vale Server's extension system allows you to create your own
+                    style from scratch or add your own terms to an existing style.
                 </p>
             </li>
             <!--end of col-->
