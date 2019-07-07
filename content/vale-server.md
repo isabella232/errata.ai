@@ -75,8 +75,7 @@ js: [
                 <i class="icon-cog h1 text-teal"></i>
                 <h5>Extensible</h5>
                 <p>
-                    Use your styles everywhere you write&mdash;be
-                    it Google Docs, a web browser, or your favorite text editor.
+                    Vale Server works by enforcing externally defined rules, allowing you to completely customize its functionality.
                 </p>
             </li>
             <!--end of col-->
@@ -200,86 +199,50 @@ js: [
             <!--end of col-->
         </div>
         <!--end of row-->
-        <div class="row justify-content-around">
-            <div class="col-lg-5 col-md-5 mb-4">
-                <ul class="nav nav-cards" role="tablist">
-                    <li>
-                        <div class="card active show" data-toggle="tab" href="#content-1" role="tab" aria-controls="content-1" aria-selected="true">
-                            <div class="card-body">
-                                <div class="media align-items-center">
-                                    <div class="step-circle mr-4">1</div>
-                                    <div class="media-body">
-                                        <h5>Choose your style</h5>
-                                        <span>
-                                        Styles are folders consisting of simple, easy-to-share YAML files. You can create your own or use one from our existing collection.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" data-toggle="tab" href="#content-2" role="tab" aria-controls="content-2" aria-selected="false">
-                            <div class="card-body">
-                                <div class="media align-items-center">
-                                    <div class="step-circle mr-4">2</div>
-                                    <div class="media-body">
-                                        <h5>Start a project</h5>
-                                        <span>
-                                            Easily manage and switch between different configurations for each of your writing projects.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" data-toggle="tab" href="#content-3" role="tab" aria-controls="content-3" aria-selected="false">
-                            <div class="card-body">
-                                <div class="media align-items-center">
-                                    <div class="step-circle mr-4">3</div>
-                                    <div class="media-body">
-                                        <h5>Integrate with other applications</h5>
-                                        <span>
-                                            Vale Server exposes its functionality over a local API, making it
-                                            east to integrate with third-party applications.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-7 mb-4">
-                <div class="tab-content">
-                    <div class="tab-pane fade active show" id="content-1" role="tabpanel" arialabelledby="content-1-tab">
-                        <figure class="figure">
-                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/styles.png">
-                          <figcaption class="figure-caption text-center img-caption">Vale Server comes with pre-made styles for
-                                        <a href="http://proselint.com/">proselint</a>,
-                                        <a href="https://joblint.org/">Joblint</a>,
-                                        the <a href="https://docs.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a>,
-                                        and the <a href="https://developers.google.com/style/">Google Developer Documentation Style Guide</a>.</figcaption>
-                        </figure>
-                    </div>
-                    <div class="tab-pane fade" id="content-2" role="tabpanel" arialabelledby="content-2-tab">
-                        <figure class="figure">
-                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/projects.png">
-                          <figcaption class="figure-caption text-center">Every project also includes its own <a href="#">Vocabulary</a> (which can be manged via the <a href="#dash">built-in dashboard</a>), allowing for custom spell checking and terminology management.</figcaption>
-                        </figure>
-                    </div>
-                    <div class="tab-pane fade" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
-                        <figure class="figure">
-                          <img alt="Image" class="img-fluid w-100" src="/img/vale-server/general.png">
-                          <figcaption class="figure-caption text-center">Vale Server has plugins Sublime Text, Atom, VS Code, and Google Docs (among others).</figcaption>
-                        </figure>
-                    </div>
+        <ul class="feature-list feature-list-lg">
+            <li class="row justify-content-around align-items-center">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <img alt="Image" src="/img/vale-server/styles.png" class="img-fluid" data-action="zoom">
                 </div>
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
+                <!--end of col-->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <h5>Choose your style</h5>
+                    <p>
+                    Styles are folders consisting of simple, easy-to-share YAML files. You can create your own or use one from our existing collection.
+                    </p>
+                    <a href="https://github.com/errata-ai/styles">More about styles ›</a>
+                </div>
+                <!--end of col-->
+            </li>
+            <li class="row justify-content-around align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 order-lg-2">
+                    <img alt="Image" src="/img/vale-server/projects.png" class="img-fluid" data-action="zoom">
+                </div>
+                <!--end of col-->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <h5>Start a project</h5>
+                    <p>
+                        Manage and switch between different configurations for each of your writing projects.
+                    </p>
+                    <a href="https://errata-ai.github.io/vale-server/docs/ui#projects">More about projects ›</a>
+                </div>
+                <!--end of col-->
+            </li>
+            <li class="row justify-content-around align-items-center">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <img alt="Image" src="/img/vale-server/general.png" class="img-fluid" data-action="zoom">
+                </div>
+                <!--end of col-->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <h5>Integrate with other applications</h5>
+                    <p>
+                        Vale Server exposes its functionality over a local API, making it
+                        possible to integrate with third-party applications.
+                    </p>
+                </div>
+                <!--end of col-->
+            </li>
+        </ul>
     </div>
     <!--end of container-->
 </section>
