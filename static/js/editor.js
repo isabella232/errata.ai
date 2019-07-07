@@ -95,6 +95,10 @@ $(document).ready(function () {
     {Match: '"rules",'},
     {Match: 'Another Section'}
   ]
+
+  // If this isn't set, Ace looks for its files in the root directory.
+  ace.config.set('basePath', '/js/ace')
+
   var htmEditor = ace.edit('htmEditor')
   var info = 'Click on an alert (the right-side panel) to highlight the relevant text in the editor (the left-side panel).'
   var markdown = '# An example document \n\n\
