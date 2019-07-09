@@ -287,7 +287,7 @@ js: [
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
                 <span class="title-decorative">USE YOUR FAVORITE APPS</span>
-                <h2 class="display-4">Write with style&mdash;where ever you want</h2>
+                <h2 class="display-4">Write with style&mdash;wherever you want</h2>
                 <span class="lead">Vale Server directly integrates with many popular text editors and writing applications.</span>
             </div>
             <div class="col-10">
