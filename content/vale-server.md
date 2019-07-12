@@ -321,7 +321,11 @@ js: [
                         <img src="/img/code.png" alt="VS Code" class="CircleBadge-icon">
                     </a>
                 </div>
-                <!-- <div data-toggle="tooltip" title="Microsoft Word (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;"><img src="/img/word.png" alt="MS Word" class="CircleBadge-icon"></div> -->
+                <div data-toggle="tooltip" title="Google Chrome (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://errata-ai.github.io/vale-server/docs/chrome">
+                        <img src="/img/chrome.png" alt="Google Chrome" class="CircleBadge-icon">
+                    </a>
+                </div>
             </div>
         </div>
         <!--end of row-->
