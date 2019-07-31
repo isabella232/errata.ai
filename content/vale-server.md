@@ -345,7 +345,7 @@ js: [
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">No subscriptions</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <a class="gumroad-button" href="https://gum.co/tfzHE" target="_blank">Buy Now $40</a>
+                <button type="button" class="btn btn-success btn-lg" disabled>Coming soon!</button>
             </div>
         </div>
     </div>
