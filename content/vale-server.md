@@ -10,7 +10,8 @@ css: [
 ]
 js: [
     'ace/ace.js',
-    'editor.js'
+    'editor.js',
+    'form.js'
 ]
 ---
 <section class="pb-0">
@@ -248,40 +249,6 @@ js: [
     <!--end of container-->
 </section>
 
-<section id="dash">
-    <div class="container">
-        <div class="row justify-content-center text-center section-intro">
-            <div class="col-12 col-md-9 col-lg-8">
-                <span class="title-decorative">Content Management</span>
-                <h2 class="display-4">A simple, yet powerful dashboard</h2>
-                <span class="lead">Control how you use specific words and phrases, ensuring that you always have up-to-date and on-brand content.</span>
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <figure class="figure">
-                  <img alt="Dashboard example" src="/img/vale-server/flow.gif" class="img-fluid box-shadow rounded">
-                  <figcaption class="figure-caption text-center pt-2">Dashboard updates are immediately available across all of your apps.</figcaption>
-                </figure>
-                <!--end of video cover-->
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
-        <div class="row justify-content-center text-center section-outro">
-            <div class="col-lg-4 col-md-5">
-                <a href="https://errata-ai.github.io/vale-server/">View more features ›</a>
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>
-
-
 <section>
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
@@ -321,7 +288,7 @@ js: [
                         <img src="/img/code.png" alt="VS Code" class="CircleBadge-icon">
                     </a>
                 </div>
-                <div data-toggle="tooltip" title="Google Chrome (coming soon!)" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                <div data-toggle="tooltip" title="Google Chrome" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
                     <a href="https://errata-ai.github.io/vale-server/docs/chrome">
                         <img src="/img/chrome.png" alt="Google Chrome" class="CircleBadge-icon">
                     </a>
@@ -338,14 +305,18 @@ js: [
     </div>
 </section>
 
-<section id="puchase">
+<section id="puchase" class="pb-0">
     <div class="container">
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">No subscriptions</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <button type="button" class="btn btn-success btn-lg" disabled>Coming soon!</button>
+                <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-lg">Download Free Trial</button>
+                <a class="btn btn-info btn-lg" href="https://gum.co/tfzHE" target="_blank">Buy Now $40</a>
+                <p class="small mt-3">
+                    Vale Server offers 30-day, zero-obligation free trial&mdash;no payment information required!
+                </p>
             </div>
         </div>
     </div>
@@ -400,7 +371,27 @@ js: [
                     <div class="card-body">
                         <h6>Can I use the same license on multiple devices?</h6>
                         <p>
-                            Yes, licenses are distributed on a per-user basis. You can use a license on as many devices as you want, so long as you are the primary user of the devices.
+                            Yes, the number of times a license key can be activated is equal to <i>quantity * 2 [the number of platforms (macOS and Windows)]</i>.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>How do I retrieve a lost license key?</h6>
+                        <p>
+                            For commercial licenses, please use the <a href="https://gumroad.com/license-key-lookup">license key lookup</a> service. For trial licenses, please send <a href="mailto:support@errata.ai">an email</a> from the address associated with your license.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Will I receive bug fixes and feature updates?</h6>
+                        <p>
+                            Yes, Vale Server only requires a one-time purchase. Existing license holders will receive all bug fixes and feature updates.
                         </p>
                     </div>
                 </div>
@@ -416,3 +407,54 @@ js: [
     </div>
 </section>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vale Server Trial Download</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="trial">
+          <div class="form-group row">
+            <label for="exampleInputEmail1" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input id="exampleInputEmail1" type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
+            </div>
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <label class="col-sm-2 pt-0">Platform</label>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="mac" value="option1" checked>
+                  <label class="form-check-label" for="mac">
+                    <i class="fab fa-apple"></i> macOS (10.12+)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="win" value="option2">
+                  <label class="form-check-label" for="win">
+                    <i class="fab fa-windows"></i> Windows (7+)
+                  </label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <p>
+            We'll send you <i>exactly two</i> emails&mdash;the first will include a trial license key and the second will inform you when your license key expires.
+          </p>
+          <p>See the <a target="_blank" href="https://errata-ai.github.io/vale-server/docs/install">Getting Started Tutorial</a> for installation and usage instructions. If you have any questions or run into any issues, feel free to get in touch via <a target="_blank" href="https://github.com/errata-ai/vale-server/issues">GitHub issues</a> or <a target="_blank" href="mailto:support@errata.ai">email</a>.</p>
+          <hr>
+          <div class="float-right">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button id="download-submit" type="submit" class="btn btn-success">Download</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
