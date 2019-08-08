@@ -312,9 +312,9 @@ js: [
                 <span class="title-decorative">Simple, one-time pricing</span>
                 <h3 class="display-4">No subscriptions</h3>
                 <span class="lead">Vale Server offers one-time pricing, avoiding the hassle of managing subscriptions and surprise charges.</span>
-                <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-lg">Download Free Trial</button>
+                <button id="trial-btn" type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-lg">Download Free Trial</button>
                 <a class="btn btn-info btn-lg" href="https://gum.co/tfzHE" target="_blank">Buy Now $40</a>
-                <p class="small mt-3">
+                <p id="trial-text" class="small mt-3">
                     Vale Server offers 30-day, zero-obligation free trial&mdash;no payment information required!
                 </p>
             </div>
