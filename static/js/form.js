@@ -45,6 +45,6 @@ $( document ).ready(function() {
 
   if (mobileAndTabletcheck()) {
     $('#trial-btn').prop('disabled', true)
-    $('#trial-text').text('Vale Server isn\'t available on mobile devices.')
+    $('#trial-text').text('Vale Server\'s trial download isn\'t available on mobile devices.')
   }
 });
