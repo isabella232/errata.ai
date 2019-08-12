@@ -361,7 +361,7 @@ js: [
                         <h6>What are the system requirements?</h6>
                         <ul>
                             <li><b>macOS</b>: Sierra 10.12 and newer releases are supported.</li>
-                            <li><b>Windows</b>: Windows (64-bit) 7, 8.1, and 10 systems are supported.</li>
+                            <li><b>Windows</b>: Windows 10 (64-bit) systems are supported.</li>
                         </ul>
                     </div>
                 </div>
@@ -438,7 +438,7 @@ js: [
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="gridRadios" id="win" value="option2">
                   <label class="form-check-label" for="win">
-                    <i class="fab fa-windows"></i> Windows (7+)
+                    <i class="fab fa-windows"></i> Windows 10
                   </label>
                 </div>
               </div>
