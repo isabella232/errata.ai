@@ -153,26 +153,26 @@ js: [
         <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
                 <span class="title-decorative">Use your favorite apps</span>
-                <span class="lead">Vale has a wide selection of plugins and extensions for popular editors and writing applications.</span>
+                <span class="lead"><a href="/vale-server/">Vale Server</a>, Vale's native desktop app, offers a wide selection of third-party integrations.</span>
             </div>
             <!--end of col-->
         </div>
         <div class="text-center">
             <div class="apps-cluster d-flex flex-wrap flex-justify-center pb-6">
                 <div data-toggle="tooltip" title="Atom" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/TimKam/atomic-vale"><img src="/img/atom.png" alt="Atom" class="CircleBadge-icon"></a>
+                    <a href="https://errata-ai.github.io/vale-server/docs/atom"><img src="/img/atom.png" alt="Atom" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="Vim" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/w0rp/ale"><img src="/img/vim.png" alt="Vim" class="CircleBadge-icon"></a>
+                <div data-toggle="tooltip" title="Google Chrome" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://errata-ai.github.io/vale-server/docs/chrome"><img src="/img/chrome.png" alt="Google Chrome" class="CircleBadge-icon"></a>
                 </div>
                 <div data-toggle="tooltip" title="Sublime Text" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-vale"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></a>
+                    <a href="https://errata-ai.github.io/vale-server/docs/st3"><img src="/img/sublime.png" alt="Sublime Text" class="CircleBadge-icon"></a>
                 </div>
                 <div data-toggle="tooltip" title="Visual Studio Code" class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://marketplace.visualstudio.com/items?itemName=testthedocs.vale"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
+                    <a href="https://errata-ai.github.io/vale-server/docs/vscode"><img src="/img/code.png" alt="VS Code" class="CircleBadge-icon"></a>
                 </div>
-                <div data-toggle="tooltip" title="GNU Emacs" class="d-none d-sm-block CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
-                    <a href="https://github.com/abingham/flycheck-vale"><img src="/img/emacs.png" alt="Emacs" class="CircleBadge-icon"></a>
+                <div data-toggle="tooltip" title="Google Docs" class="d-none d-sm-block CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFF;">
+                    <a href="https://errata-ai.github.io/vale-server/docs/gdocs"><img src="/img/gdocs.png" alt="Google Docs" class="CircleBadge-icon"></a>
                 </div>
             </div>
         </div>
