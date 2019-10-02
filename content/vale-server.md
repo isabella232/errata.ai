@@ -345,12 +345,9 @@ js: [
             <li class="col-12 col-md-6 col-lg-5">
                 <div class="card">
                     <div class="card-body">
-                        <h6>Do you offer refunds?</h6>
+                        <h6>How do I retrieve a lost license key?</h6>
                         <p>
-                            Yes, refunds are available within 30
-                            days of purchasing. Please send us an
-                            <a href="mailto:support@errata.ai">email</a> if you wish to
-                            claim a refund.
+                            For commercial licenses, please use the <a href="https://gumroad.com/license-key-lookup">license key lookup</a> service. For trial licenses, please send <a href="mailto:support@errata.ai">an email</a> from the address associated with your license.
                         </p>
                     </div>
                 </div>
@@ -372,16 +369,6 @@ js: [
                         <h6>Can I use the same license on multiple devices?</h6>
                         <p>
                             Yes, the number of times a license key can be activated is equal to <i>quantity * 2 [the number of platforms (macOS and Windows)]</i>.
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="col-12 col-md-6 col-lg-5">
-                <div class="card">
-                    <div class="card-body">
-                        <h6>How do I retrieve a lost license key?</h6>
-                        <p>
-                            For commercial licenses, please use the <a href="https://gumroad.com/license-key-lookup">license key lookup</a> service. For trial licenses, please send <a href="mailto:support@errata.ai">an email</a> from the address associated with your license.
                         </p>
                     </div>
                 </div>
