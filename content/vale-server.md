@@ -373,16 +373,6 @@ js: [
                     </div>
                 </div>
             </li>
-            <li class="col-12 col-md-6 col-lg-5">
-                <div class="card">
-                    <div class="card-body">
-                        <h6>Will I receive bug fixes and feature updates?</h6>
-                        <p>
-                            Yes, Vale Server only requires a one-time purchase. Existing license holders will receive all bug fixes and feature updates.
-                        </p>
-                    </div>
-                </div>
-            </li>
         </ul>
         <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
