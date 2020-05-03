@@ -366,9 +366,9 @@ js: [
             <li class="col-12 col-md-6 col-lg-5">
                 <div class="card">
                     <div class="card-body">
-                        <h6>Can I use the same license on multiple devices?</h6>
+                        <h6>Do you offer bulk or organization discounts?</h6>
                         <p>
-                            Yes, the number of times a license key can be activated is equal to <i>quantity * 2 [the number of platforms (macOS and Windows)]</i>.
+                            Yes, there are multiple <a href="https://gum.co/tfzHE">license types</a> available.
                         </p>
                     </div>
                 </div>
