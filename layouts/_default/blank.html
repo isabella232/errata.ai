@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-	{{ partial "head" . }}
-	<body>
-		{{ .Content }}
-	</body>
-</html>
+{{ define "main" }}
+
+{{ .Content | safeHTML }}
+
+{{ end }}

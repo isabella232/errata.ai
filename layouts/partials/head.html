@@ -9,24 +9,19 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     {{ end }}
 
-    <link rel="stylesheet" href="{{ "/css/socicon.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/entypo.min.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/flickity.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/theme.min.css" | relURL }}">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    <link rel="stylesheet" href="{{ "/css/file.css" | relURL }}">
+    <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/entypo.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
 
     {{- range .Params.css }}
       <link rel="stylesheet" href="/css/{{ . }}">
     {{- end }}
-
-    <link rel="stylesheet" href="{{ "/css/syntax.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
 
     <link rel="canonical" href="{{ .Permalink }}">
 </head>
