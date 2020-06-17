@@ -35,9 +35,9 @@ $( document ).ready(function() {
     },
     submitHandler: function(form) {
       if ($('#mac').is(':checked')) {
-        window.location.href = 'https://github.com/errata-ai/errata.ai/releases/download/v1.0.0/vs-setup-x64-mac.dmg'
+        window.location.href = 'https://github.com/errata-ai/errata.ai/releases/download/v1.0.0/ValeServer-1.5-osx.dmg'
       } else {
-        window.location.href = 'https://github.com/errata-ai/errata.ai/releases/download/v1.0.0/vs-setup-x64-windows.exe'
+        window.location.href = 'https://github.com/errata-ai/errata.ai/releases/download/v1.0.0/ValeServer-1.5-windows.exe'
       }
       $('#download-submit').prop('disabled', true)
     }
