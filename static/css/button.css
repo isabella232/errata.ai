@@ -1,0 +1,40 @@
+.pad50{
+  padding-top: 50px;
+}
+
+.button {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 30px;
+  padding-left: 70px;
+  padding-bottom: 45px;
+  position: relative;
+  color:rgb(255,255,255);
+}
+
+.button:hover{
+  text-decoration: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.button p{font-size: 18px;}
+.button span {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  font-size:30px;
+  -webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-right: 1px solid  rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+
+.button.dropbox{
+  background: #0088cc;
+}
