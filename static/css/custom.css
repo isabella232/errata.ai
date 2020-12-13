@@ -46,7 +46,7 @@ h6 {
 }
 a,
 .btn-link {
-  color: #75b8f7;
+  color: #4285C4;
   text-decoration: none;
   background-color: transparent;
 }
@@ -156,7 +156,23 @@ a.card {
     animation-duration: 6s;
     margin-top: 24px;
   }
+  .img-thumbnail {
+    height: 230px;
 }
+}
+
+@media (max-width: 1011px) {
+  .img-thumbnail {
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-thumbnail {
+    height: 100%;
+  }
+}
+
 @media (min-width: 1012px) {
   .apps-cluster .CircleBadge:nth-child(2n) {
     animation-duration: 6s;
