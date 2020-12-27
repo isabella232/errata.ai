@@ -59,8 +59,8 @@ $(document).ready(function () {
                             "</td>" +
                             "<td>Individual</td>" +
                             "<td>" +
-                            '<button type="button" class="btn btn-sm btn-danger button-deactivate" data-stamp="' +
-                            curr.Date +
+                            '<button type="button" class="btn btn-sm btn-danger button-deactivate" data-mach="' +
+                            curr.Mach +
                             '">Deactivate</button>' +
                             "</td>" +
                             "</tr>";
@@ -79,12 +79,12 @@ $(document).ready(function () {
     });
 
     $("body").on("click", ".button-deactivate", function (e) {
-        const stamp = $(this).data("stamp");
+        const stamp = $(this).data("mach");
         const entry = $(this).closest("tr");
         $.ajax({
             url: API + "deactivate",
             type: "POST",
-            data: { license: KEY, date: stamp },
+            data: { license: KEY, machine: stamp },
         })
             .done(function (result) {
                 entry.remove();
