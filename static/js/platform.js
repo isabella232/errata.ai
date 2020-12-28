@@ -49,7 +49,7 @@ $(document).ready(function () {
         $("#platform-other").html(
             '<span class="text-muted">' +
                 'Also available for <a href="' + win + '"><i class="fab fa-windows" aria-hidden="true"></i> Windows</a> and ' +
-                '<a href="' + mac  + '" <i class="fab fa-apple" aria-hidden="true"></i>>macOS</a>.' +
+                '<a href="' + mac  + '" <i class="fab fa-apple" aria-hidden="true"></i> macOS</a>.' +
                 "</span>"
         );
     }
