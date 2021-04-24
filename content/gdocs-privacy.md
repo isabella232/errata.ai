@@ -17,8 +17,7 @@ to our servers.
 ## Data Usage
 
 The Vale add-on will ask for permission to access the current Google Doc, which
-we need to send its contents to our remote servers. The Vale add-on reads the
-content and structure of your documents, but it does not change any content.
+we need to send its contents to the running instance of Vale Server. The Vale add-on reads the content and structure of your documents, but it does not change any content.
 
 The Vale add-on will also ask for permission to display a sidebar. It uses the
 sidebar to display a list of alerts (if found) about your content.
