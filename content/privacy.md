@@ -27,8 +27,6 @@ We may get access to your personal data under the following circumstances:
 
 - If you contact us by using our contact information, we will process your personal data to answer your question or handle your complaint. Personal data we may get access to are your name and email address, and additional information you choose to include in your question and/or complaint. We will only hold on to this personal data for as long as necessary to complete your request, answer your question, or handle your complaint.
 
-<br>
-
 - If you use Vale Server, we may process information regarding the use of the software. We want to be able to understand how our software is used, and to improve and adjust our software accordingly. This information is anonymized for us. We will not be able to see your personal information, nor will we get access to any of the written content. We will however get access to and process the information regarding certain issues and errors in the software, or any feedback given by you to us.
 
 
