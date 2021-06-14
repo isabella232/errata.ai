@@ -17,10 +17,6 @@ You are solely responsible for properly canceling your account and any subscript
 
 Vale Server, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account, and the forfeiture and relinquishment of all Content in your Account. Vale Server reserves the right to refuse service to anyone for any reason, at any time.
 
-## Copyright and Content Ownership
-
-We claim no intellectual property rights over the material you provide to Vale Server.
-
 ## General Conditions
 
 Vale Server does not warrant that (i) the service will meet your specific requirements, (ii) the service will be uninterrupted, timely, or error-free, (iii) the results that may be obtained from the use of the service will be accurate or reliable, (iv) the quality of any products, services, information, or other material purchased or obtained by you through the service will meet your expectations, and (v) any errors in the Service will be corrected.
