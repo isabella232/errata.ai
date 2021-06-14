@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Google Docs add-on Privacy Policy
 slug: docs-privacy
 ---
 
