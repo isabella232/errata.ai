@@ -1,8 +1,8 @@
 const URL = 'https://github.com/errata-ai/errata.ai/releases/download/v1.0.0'
 
-const win = URL + '/Vale-Server-1.12.1-windows.exe'
-const mac = URL + '/Vale-Server-1.12.0-macos.dmg'
-const linux = URL + '/Vale-Server-1.12.0-linux.AppImage'
+const win = URL + '/Vale-Server-1.13.0-windows.exe'
+const mac = URL + '/Vale-Server-1.13.0-macos.dmg'
+const linux = URL + '/Vale-Server-1.13.0-linux.AppImage'
 
 $(document).ready(function () {
   const platform = navigator.platform
