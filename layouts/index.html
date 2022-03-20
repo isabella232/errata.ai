@@ -1,147 +1,49 @@
 {{ define "main" }}
 
-<section class="bg-white space-lg">
-  <img alt="Image" src="/img/backgrounds/graphic-bg-clouds-1.png" class="bg-image" />
+<section class="space-lg bg-dark overflow-hidden">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-9 col-lg-8 text-center">
-        <h1 class="display-4">Innovative tools for collaborative writing</h1>
-        <span class="lead">
-            At <strong>errata.ai</strong>, we develop software to help writers maintain
-            on-brand, consistent, and mistake-free content using modern
-            <i>docs-as-code</i> principles.
-        </span>
-        <a href="#projects" class="btn btn-success btn-lg">Explore our projects &rsaquo;</a>
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 mb-5 mb-md-0 position-relative">
+        <h1 class="display-4">Your style, our editor</h1>
+        <p class="lead">
+          Meet Wingman, a robust suite of styled pages and components, powered by Bootstrap 4. The ideal starting point for product landing pages, stylish web-apps and complete company websites.
+        </p>
+        <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-success">Download for Mac</a>
+        <a href="pages-landing.html" class="btn btn-lg btn-link text-white">Start exploring <i class="icon-chevron-right"></i></a>
       </div>
-    </div>
-  </div>
-</section>
+      <!--end of col-->
+      <div class="col-12 col-md-6">
+        <div class="main-carousel overflow-visible" data-flickity='{ "cellAlign": "center", "contain": true, "prevNextButtons": false, "pageDots":true, "wrapAround":true, "autoPlay":5000, "imagesLoaded":true, "initialIndex":3, "draggable":false }'>
 
-<section class="bg-white">
-  <div class="container">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-12 col-md-6 col-lg-5 text-center text-md-left section-intro">
-        <span class="title-decorative">A modern stack</span>
-        <h3 class="h1">Docs &#43; Code</h3>
-        <span class="lead">
-          All of our products are designed to fit into
-          existing docs-as-code workflows.
-        </span>
-      </div>
-      <div class="col-8 col-md-6 col-lg-4">
-        <div class="gallery" id="gallery">
-          <div class="mb-3 pics animation all 2">
-            <img
-              class="img-fluid w-100"
-              src="/img/logos/Appveyor.png"
-              alt="Appveyor logo"
-            />
+          <div class="carousel-cell col-11">
+            <div class="card card-sm bg-gradient border-0">
+              <a href="landing-1.html">
+                <img class="card-img-top" src="/img/apps/st2.png" alt="Sublime Text">
+              </a>
+              <div class="card-footer d-flex justify-content-between bg-white">
+                <a href="landing-1.html" class="h6 m-0">Sublime Text</a>
+                <a target="_blank" href="landing-1.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="mb-3 pics animation all 1">
-            <img
-              class="img-fluid w-100"
-              src="/img/logos/travis.png"
-              alt="Travis CI logo"
-            />
-          </div>
-          <div class="mb-3 pics animation all 2">
-            <img
-              class="img-fluid w-100"
-              src="/img/logos/mdown.png"
-              alt="Markdown logo"
-            />
-          </div>
-          <div class="mb-3 pics animation all 1">
-            <img
-              id="col-lead"
-              class="img-fluid w-100"
-              src="/img/logos/git.png"
-              alt="Git logo"
-            />
-          </div>
-          <div class="mb-3 pics animation all 2">
-            <img
-              class="img-fluid w-100"
-              src="/img/logos/netlify.png"
-              alt="Netlify logo"
-            />
+
+          <div class="carousel-cell col-11">
+            <div class="card card-sm bg-gradient border-0">
+              <a href="landing-1.html">
+                <img class="card-img-top" src="/img/apps/vs.png" alt="VS Code">
+              </a>
+              <div class="card-footer d-flex justify-content-between bg-white">
+                <a href="landing-1.html" class="h6 m-0">VS Code</a>
+                <a target="_blank" href="landing-1.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-white flush-with-above">
-    <div class="container">
-        <div class="row justify-content-around align-items-center">
-            <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
-                <span class="title-decorative">we &hearts; OSS</span>
-                <h5 class="h1">Open Source</h5>
-                <p class="lead">
-                    All of our products are built on top of an open-source
-                    core.
-                </p>
-            </div>
-            <div class="col-12 col-md-6 order-md-1">
-                <img alt="Image" src="/img/screenshots/github-org.png" class="img-fluid box-shadow" />
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="projects" class="bg-white">
-  <div class="container">
-    <div class="row justify-content-center text-center section-intro">
-      <div class="col-12 col-md-9 col-lg-8">
-        <span class="title-decorative" data-aos="fade-up" data-aos-delay="10">What we do</span>
-        <h2 class="display-5" data-aos="fade-up" data-aos-delay="100">Your content, our tools</h2>
-        <span class="lead" data-aos="fade-up" data-aos-delay="200">
-            We build tools of all kinds&mdash;be it desktop apps, CLIs, or websites&mdash;to help you create and maintain better content.
-        </span>
-      </div>
-    </div>
-
-    <ul class="row h-25 feature-list feature-list-sm">
-      <li class="col-12 col-md-4">
-        <a href="https://docs.errata.ai/vale-server/install/" class="card">
-          <img alt="An image of Vale Server's homepage" src="/img/screenshots/vale-server.png" class="img rounded img-thumbnail"/>
-        </a>
-        <h5>Vale Server</h5>
-        <p>A cross-platform desktop application that brings your editorial style guide to life.</p>
-        <a href="https://docs.errata.ai/vale-server/install/">Learn more &rsaquo;</a>
-      </li>
       <!--end of col-->
-      <li class="col-12 col-md-4">
-        <a href="https://vale-studio.errata.ai/" class="card">
-          <img
-            alt="An image of Vale Studio's homepage"
-            src="/img/screenshots/vale-studio.png"
-            class="img img-thumbnail rounded"
-          />
-        </a>
-        <h5>Vale Studio</h5>
-        <p>An online tool to build, test, and share Vale- and Vale Server-compatible rules.</p>
-        <a href="https://vale-studio.errata.ai/">Learn more &rsaquo;</a>
-      </li>
-      <!--end of col-->
-      <li class="col-12 col-md-4">
-        <a href="https://github.com/errata-ai/vale" class="card">
-          <img
-            alt="An image of Vale running in Terminal"
-            src="/img/screenshots/vale.png"
-            class="img img-thumbnail rounded"
-          />
-        </a>
-        <h5>Vale</h5>
-        <p>A syntax-aware, command-line linter for prose built with speed and extensibility in mind.</p>
-        <a href="https://github.com/errata-ai/vale">Learn more &rsaquo;</a>
-      </li>
-      <!--end of col-->
-    </ul>
+    </div>
     <!--end of row-->
   </div>
   <!--end of container-->
 </section>
-
 {{ end }}
