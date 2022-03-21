@@ -1,7 +1,7 @@
 baseURL = "https://errata.ai/"
-languageCode= "en-us"
+languageCode = "en-us"
 
-pygmentsstyle="autumn"
+pygmentsstyle = "autumn"
 #pygmentsUseClasses = true
 
 contentDir = "content"
@@ -13,6 +13,8 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "robotsTXT"]
 # Note that this currently has no effect in Hugo.
 timezone = "America/Los_Angeles"
 
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
 
@@ -20,9 +22,9 @@ timezone = "America/Los_Angeles"
 # See the JPEG files below /static/images.
 top_graphic = 5
 
+crowdfunding_url = ""
 github_username = "errata-ai"
 twitter_username = "erratadotai"
-crowdfunding_url = ""
 
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
@@ -34,20 +36,20 @@ enableMissingTranslationPlaceholders = true
 
 [languages]
 [languages.en]
+languageName = "English"
 title = "errata.ai"
-languageName ="English"
 # Weight used for sorting.
-weight = 1
 description = """
   errata.ai is a small consulting firm specializing in modern documentation management, with an emphasis
   on automated testing and continuous integration.
 """
+weight = 1
 
 # Be explicit about the output formats. We only want an RSS feed for the home page.
 [outputs]
-home = [ "HTML", "RSS" ]
-page = [ "HTML"]
-section = [ "HTML"]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+section = ["HTML"]
 
 [outputFormats]
 [outputFormats.RSS]
@@ -55,7 +57,7 @@ baseName = "feed"
 
 # Hugo >= 0.33 is needed to get uglyURLs per section.
 [uglyURLs]
-  post = true
+post = true
 
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
+post = "/:year/:month/:day/:slug/"

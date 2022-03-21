@@ -12,6 +12,16 @@ toc: true
 
 ## Quick start
 
+To switch directories, type `cd` followed by the name of the directory. To edit settings, press <kbd>Cmd+Shift+P</kbd>.
+
+{{< youtube w7Ft2ymGmfc >}}
+
+<div class="alert-box danger"><blockquote><span class="bold-30s6yT">In order to make commands work within a guild, the guild must authorize your application with the <code>applications.commands</code> scope. The <code>bot</code> scope is not enough.</span></blockquote></div>
+
+<div class="alert-box warn"><blockquote><span class="bold-30s6yT">In order to make commands work within a guild, the guild must authorize your application with the <code>applications.commands</code> scope. The <code>bot</code> scope is not enough.</span></blockquote></div>
+
+<div class="alert-box info"><blockquote><span class="bold-30s6yT">In order to make commands work within a guild, the guild must authorize your application with the <code>applications.commands</code> scope. The <code>bot</code> scope is not enough.</span></blockquote></div>
+
 Looking to quickly add Bootstrap to your project? Use jsDelivr, a free open source CDN. Using a package manager or need to download the source files? [Head to the downloads page]().
 
 ### CSS

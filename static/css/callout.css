@@ -1,0 +1,27 @@
+blockquote {
+  margin: 0 0 0 !important;
+}
+
+.alert-box {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.alert-box.danger {
+  background: rgba(237, 66, 69, .1);
+  border: 2px solid rgba(237, 66, 69, .5);
+}
+
+.alert-box.warn {
+  background: rgba(254, 231, 92, .1);
+  border: 2px solid rgba(254, 231, 92, .5);
+}
+
+.alert-box.info {
+  background: rgba(18, 100, 163, .1);
+  border: 2px solid rgba(18, 100, 163, .5);
+}
