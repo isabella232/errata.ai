@@ -7,6 +7,16 @@
 /*
 */
 
+body {
+  font-family: Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bd-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem !important;
+  font-size: 3rem;
+}
+
 .bg-dark {
   background-color: #1b1f23 !important;
 }
@@ -17,4 +27,9 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-nav {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
