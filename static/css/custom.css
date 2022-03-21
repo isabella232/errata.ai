@@ -10,3 +10,11 @@
 .bg-dark {
   background-color: #1b1f23 !important;
 }
+
+.container-wide {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
