@@ -113,6 +113,11 @@ kbd {
   background: #f8f9fa;
 }
 
-.main-container {
-  top: 4rem !important;
+.highlight {
+  position: relative;
+}
+
+.highlight pre {
+  /* Avoid pushing up the copy buttons. */
+  margin: 0;
 }

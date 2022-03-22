@@ -40,9 +40,6 @@
 
         <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
 
-        <!-- Required theme scripts (Do not remove) -->
-        <script type="text/javascript" src="/js/theme.js"></script>
-
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
         {{/*  <script src="https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"></script>  */}}
         <script>
@@ -68,6 +65,35 @@
           document.addEventListener('DOMContentLoaded', function(event) {
             anchors.add('.docs h1, .docs h2, .docs h3');
           });
+
+          $(function () {
+            $('div.highlight').each(function () {
+                var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard">Copy</button></div>'
+                $(this).before(btnHtml)
+                $('.btn-clipboard')
+                    .tooltip()
+                    .on('mouseleave', function () {
+                        $(this).tooltip('hide')
+                    })
+            });
+
+            var clipboard = new ClipboardJS('.btn-clipboard', {
+              target: function (trigger) {
+                return trigger.parentNode.nextElementSibling
+              }
+            })
+
+            clipboard.on('success', function (e) {
+              $(e.trigger)
+                .attr('title', 'Copied!')
+                .tooltip('_fixTitle')
+                .tooltip('show')
+                .attr('title', 'Copy to clipboard')
+                .tooltip('_fixTitle')
+
+              e.clearSelection()
+            })
+        })
         </script>
     </body>
 </html>

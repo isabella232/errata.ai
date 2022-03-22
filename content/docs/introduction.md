@@ -14,7 +14,11 @@ toc: true
 
 To switch directories, type `cd` followed by the name of the directory. To edit settings, press <kbd>Cmd+Shift+P</kbd>.
 
-{{< youtube w7Ft2ymGmfc >}}
+```python
+def hello():
+    """foo"""
+    print(""")
+```
 
 <div class="alert-box danger"><blockquote><span class="bold-30s6yT">In order to make commands work within a guild, the guild must authorize your application with the <code>applications.commands</code> scope. The <code>bot</code> scope is not enough.</span></blockquote></div>
 
@@ -60,20 +64,9 @@ Bootstrap employs a handful of important global styles and settings that you'll 
 
 Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some funky incomplete styling, but including it shouldn't cause any considerable hiccups.
 
-```html
-<!doctype html>
-<html lang="en">
-  ...
-</html>
-```
-
 ### Responsive meta tag
 
 Bootstrap is developed *mobile first*, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, **add the responsive viewport meta tag** to your `<head>`.
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-```
 
 You can see an example of this in action in the [starter template](#starter-template).
 
@@ -82,12 +75,6 @@ You can see an example of this in action in the [starter template](#starter-temp
 For more straightforward sizing in CSS, we switch the global `box-sizing` value from `content-box` to `border-box`. This ensures `padding` does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
 
 On the rare occasion you need to override it, use something like the following:
-
-```css
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-```
 
 With the above snippet, nested elements—including generated content via `::before` and `::after`—will all inherit the specified `box-sizing` for that `.selector-for-some-widget`.
 
