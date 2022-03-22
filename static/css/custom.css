@@ -14,6 +14,7 @@ body {
   line-height: 1.5;
   color: #222831;
   text-align: left;
+  padding-top: 60px;
 }
 
 .h1,
@@ -61,17 +62,27 @@ kbd {
   border-bottom: 1px dashed rgba(18, 100, 163, .1);
 }
 
-.docs code {
-  background: #e8f5fa;
-  border: 1px solid rgba(11, 76, 140, .2);
-  border-radius: 4px;
-  color: #0b4c8c;
-  display: inline-block;
-  font-family: Menlo, Consolas, "Courier New", monospace;
-  font-size: 75%;
+.anchorjs-link {
+  border-bottom: none !important;
+  padding-left: 0.1em !important;
+}
+
+.anchorjs-link {
   font-weight: 400;
-  padding: 0 4px;
-  white-space: normal;
+  color: rgba(0, 123, 255, 0.5);
+  transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anchorjs-link {
+    transition: none;
+  }
+}
+
+.anchorjs-link:focus,
+.anchorjs-link:hover {
+  color: #007bff;
+  text-decoration: none;
 }
 
 .bd-title {
@@ -95,4 +106,13 @@ kbd {
 .container-nav {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+.hljs {
+  color: #24292e;
+  background: #f8f9fa;
+}
+
+.main-container {
+  top: 4rem !important;
 }
