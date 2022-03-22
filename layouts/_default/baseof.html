@@ -62,10 +62,6 @@
             trigger: 'focus'
           })
 
-          document.addEventListener('DOMContentLoaded', function(event) {
-            anchors.add('.docs h1, .docs h2, .docs h3');
-          });
-
           $(function () {
             $('div.highlight').each(function () {
                 var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard">Copy</button></div>'
@@ -93,6 +89,9 @@
 
               e.clearSelection()
             })
+
+            anchors.add('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5')
+            $('.bd-content').children('h2, h3, h4, h5').wrapInner('<span class="bd-content-title"></span>')
         })
         </script>
     </body>

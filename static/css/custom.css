@@ -121,3 +121,12 @@ kbd {
   /* Avoid pushing up the copy buttons. */
   margin: 0;
 }
+
+.docs code,
+.docs tt {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+}
