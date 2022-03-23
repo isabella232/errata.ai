@@ -14,10 +14,19 @@ toc: true
 
 To switch directories, type `cd` followed by the name of the directory. To edit settings, press <kbd>Cmd+Shift+P</kbd>.
 
-```python
-def hello():
-    """foo"""
-    print(""")
+```yaml
+extends: conditional
+message: "'%s' has no definition"
+level: error
+scope: text
+ignorecase: false
+# Ensures that the existence of 'first' implies the existence of 'second'.
+first: '\b([A-Z]{3,5})\b'
+second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
+# ... with the exception of these:
+exceptions:
+  - ABC
+  - ADD
 ```
 
 <div class="alert-box danger"><blockquote><span class="bold-30s6yT">In order to make commands work within a guild, the guild must authorize your application with the <code>applications.commands</code> scope. The <code>bot</code> scope is not enough.</span></blockquote></div>

@@ -130,3 +130,27 @@ kbd {
   background-color: rgba(175, 184, 193, 0.2);
   border-radius: 6px;
 }
+
+/* for block of numbers */
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+.hljs-ln-code {
+  padding-left: 10px !important;
+}
+
+.hljs-ln td {
+  padding-right: 5px !important;
+}
