@@ -12,6 +12,8 @@ toc: true
 
 ## Quick start
 
+{{< youtube w7Ft2ymGmfc >}}
+
 To switch directories, type `cd` followed by the name of the directory. To edit settings, press <kbd>Cmd+Shift+P</kbd>.
 
 ```yaml
