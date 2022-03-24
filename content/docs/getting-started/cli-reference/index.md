@@ -1,9 +1,9 @@
 ---
 layout: topic
-title: Installation
+title: CLI Reference
 description: |
-  Get started with Vale, a syntax-aware linter for prose built with speed and
-  extensibility in mind.
+  Learn how to control Vale's configuration, functionality, and output from the
+  command line.
 group: getting-started
 toc: true
 ---

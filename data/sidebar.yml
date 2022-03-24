@@ -1,16 +1,10 @@
 - title: Getting Started
   pages:
     - title: Installation
-    - title: Download
-    - title: Contents
-    - title: Browsers & devices
-    - title: JavaScript
-    - title: Theming
-    - title: Build tools
-    - title: Webpack
-    - title: Accessibility
+    - title: Structure & Initialization
+    - title: CLI Reference
 
-- title: File Formats & Scoping
+- title: Formats & Scoping
   pages:
     - title: Overview
     - title: Grid

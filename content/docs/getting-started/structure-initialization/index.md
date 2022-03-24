@@ -1,9 +1,9 @@
 ---
 layout: topic
-title: Installation
+title: Structure & Initialization
 description: |
-  Get started with Vale, a syntax-aware linter for prose built with speed and
-  extensibility in mind.
+  Set up the necessary config files and folder structure to start enforcing
+  a style guide.
 group: getting-started
 toc: true
 ---
@@ -141,3 +141,4 @@ You can also follow [@getbootstrap on Twitter](https://twitter.com/) for the lat
 Several Bootstrap components include embedded SVGs in our CSS to style components consistently and easily across browsers and devices. **For organizations with more strict <abbr title="Content Security Policy">CSP</abbr> configurations**, we've documented all instances of our embedded SVGs (all of which are applied via `background-image`) so you can more thoroughly review your options.
 
 Based on [community conversation](https://github.com/twbs/bootstrap/issues/25394), some options for addressing this in your own codebase include replacing the URLs with locally hosted assets, removing the images and using inline images (not possible in all components), and modifying your CSP. Our recommendation is to carefully review your own security policies and decide on a best path forward, if necessary.
+
