@@ -1,12 +1,10 @@
 ---
-layout: docs
+layout: topic
 title: Introduction
 description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.
 group: getting-started
 aliases:
-  - "/docs/4.6/getting-started/"
-  - "/docs/getting-started/"
-  - "/getting-started/"
+  - "/getting-started/installation/"
 toc: true
 ---
 
