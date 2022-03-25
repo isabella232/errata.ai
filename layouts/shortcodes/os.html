@@ -1,0 +1,17 @@
+{{- $file := index .Params 0 -}}
+
+{{- $mac := .Page.Resources.GetMatch (printf "macos/%s" $file) -}}
+{{- $win := .Page.Resources.GetMatch (printf "windows/%s" $file) -}}
+{{- $lin := .Page.Resources.GetMatch (printf "linux/%s" $file) -}}
+
+<div class="platforms">
+  <div class="macos d-none">
+    {{ $mac.Content | markdownify}}
+  </div>
+  <div class="windows d-none">
+    {{ $win.Content | markdownify}}
+  </div>
+  <div class="linux d-none">
+    {{ $lin.Content | markdownify}}
+  </div>
+</div>
