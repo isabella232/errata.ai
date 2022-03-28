@@ -13,9 +13,13 @@ js:
   - os.js
 ---
 
-## Quick Start
+{{< youtube w7Ft2ymGmfc >}}
 
-{{< os "binary.md" >}}
+## macOS
+
+## Windows
+
+## Linux
 
 ## Docker
 
