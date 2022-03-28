@@ -1,36 +1,56 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    {{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}
+  </title>
 
-    {{ if .IsHome }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-    {{ end }}
+  {{ if .IsHome }}
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  {{ end }}
 
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"> -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+  />
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/entypo.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/entypo.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/docs.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/callout.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/navbar.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link href="/css/docs.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/callout.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/navbar.css" rel="stylesheet" type="text/css" media="all" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github.min.css"
+  />
+  <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github.min.css">
-    <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  {{- range .Params.css }}
+  <link rel="stylesheet" href="/css/{{ . }}" />
+  {{- end }}
 
-    {{- range .Params.css }}
-      <link rel="stylesheet" href="/css/{{ . }}">
-    {{- end }}
-
-    <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}" />
 </head>
