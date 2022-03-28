@@ -21,6 +21,10 @@ iframe {
   background-color: #cdeac0 !important;
 }
 
+.bg-dark {
+  background-color: #101319 !important;
+}
+
 body {
   font-family: "Inter", sans-serif;
   color: #333 !important;
@@ -100,10 +104,6 @@ kbd {
   margin-top: 1rem;
   margin-bottom: 1rem !important;
   font-size: 3rem;
-}
-
-.bg-dark {
-  background-color: #1b1f23 !important;
 }
 
 .container-wide {
