@@ -1,0 +1,35 @@
+{{- $file := index .Params 0 -}}
+{{- $tabs := .Page.Resources.GetMatch (printf "tabs/%s.yml" $file) | transform.Unmarshal -}}
+
+<div class="card mt-3 tab-card">
+  <div class="card-header tab-card-header">
+    <ul class="nav nav-tabs card-header-tabs" id="{{ $file }}" role="tablist">
+      {{- range $i, $tab := $tabs -}}
+      <li class="nav-item">
+        <a
+          class="nav-link {{ if $tab.active }}active{{ end }}"
+          id="tab-{{ $i }}"
+          data-toggle="tab"
+          href="#t{{ $i }}-{{ $file }}"
+          role="tab"
+          aria-controls="One"
+          aria-selected="true"
+          >{{ $tab.title | markdownify }}
+        </a>
+      </li>
+      {{- end -}}
+    </ul>
+  </div>
+  <div class="tab-content" id="{{ $file }}-Content">
+    {{- range $i, $tab := $tabs -}}
+    <div
+      class="tab-pane fade show {{ if $tab.active }}active{{ end }} p-3"
+      id="t{{ $i }}-{{ $file }}"
+      role="tabpanel"
+      aria-labelledby="one-tab"
+    >
+    {{ $tab.body | markdownify }}
+    </div>
+    {{- end -}}
+  </div>
+</div>
